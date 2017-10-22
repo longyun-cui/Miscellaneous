@@ -129,6 +129,7 @@
                 <a target="_blank" class="margin btn btn-sm bg-olive" href="http://laravelacademy.org/post/2605.html">Simple QrCode 二维码</a>
                 <a target="_blank" class="margin btn btn-sm bg-olive" href="http://www.runoob.com/design-pattern/design-pattern-tutorial.html">设计模式</a>
                 <a target="_blank" class="margin btn btn-sm bg-olive" href="http://coding.imooc.com/class/chapter/111.html">Laravel 5.4 快速开发简书（课程）</a>
+                <a target="_blank" class="margin btn btn-sm bg-olive" href="https://d.laravel-china.org/docs/5.5/migrations">migrations 数据迁移</a>
                 <a target="_blank" class="margin btn btn-sm bg-olive" href=""></a>
             </div>
 
@@ -197,7 +198,6 @@
                 <h3 class="box-title">Life</h3>
             </div>
             <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://list.youku.com/show/id_z6e782defbfbd0d4e11ef.html">晓松奇谈2017</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.google.cn/maps">Google地图</a>
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="http://map.baidu.com">百度地图</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://map.baidu.com/subways/index.html?c=shanghai">上海地铁</a>
@@ -214,6 +214,13 @@
                 <a target="_blank" class="margin btn btn-sm bg-purple" href=""></a>
             </div>
 
+            <div class="box-body">
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://list.youku.com/show/id_z6e782defbfbd0d4e11ef.html">晓松奇谈2017</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://www.iqiyi.com/a_19rrh9pwd9.html">坑王驾到</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href=""></a>
+            </div>
+
+
             <div class="box-header with-border" style="margin:8px 0 16px;">
                 <h3 class="box-title">Life.Tools</h3>
             </div>
@@ -223,6 +230,8 @@
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://www.tianyancha.com/">天眼查</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://salarycalculator.sinaapp.com/">上海税后工资计算器</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://checkcoverage.apple.com/cn/zh/">apple保修服务和支持期限</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.miitbeian.gov.cn">ICP备案</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.chsi.com.cn/">学信网</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href=""></a>
             </div>
 
@@ -247,6 +256,7 @@
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://leancapital.tk/">精益资本</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.youguard.cn/">上海誉甲自动化技术有限公司</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.10years.me/account/login">10年后</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.justsy.com">嘉兴嘉赛</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href=""></a>
             </div>
 
