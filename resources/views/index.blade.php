@@ -90,6 +90,7 @@
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="http://select2.github.io/select2/">select2</a>
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="https://nwidart.com/laravel-modules/v1/introduction">laravel-modules</a>
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="https://codeigniter.org.cn/docs">codeigniter</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://www.yiichina.com/">yii中文官网</a>
                 <a target="_blank" class="margin btn btn-sm bg-purple" href=""></a>
             </div>
 
@@ -130,6 +131,7 @@
                 <a target="_blank" class="margin btn btn-sm bg-olive" href="http://www.runoob.com/design-pattern/design-pattern-tutorial.html">设计模式</a>
                 <a target="_blank" class="margin btn btn-sm bg-olive" href="http://coding.imooc.com/class/chapter/111.html">Laravel 5.4 快速开发简书（课程）</a>
                 <a target="_blank" class="margin btn btn-sm bg-olive" href="https://d.laravel-china.org/docs/5.5/migrations">migrations 数据迁移</a>
+                <a target="_blank" class="margin btn btn-sm bg-olive" href="http://www.maatwebsite.nl/laravel-excel/docs">Laravel Excel</a>
                 <a target="_blank" class="margin btn btn-sm bg-olive" href=""></a>
             </div>
 
