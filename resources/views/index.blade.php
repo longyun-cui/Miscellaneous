@@ -21,6 +21,23 @@
             </div>
 
             <div class="box-body">
+                <a target="_blank" class="margin btn btn-sm bg-olive" href="/">btn-olive</a>
+                <a target="_blank" class="margin btn btn-sm bg-orange" href="/">btn-orange</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="/">btn-maroon</a>
+                <a target="_blank" class="margin btn btn-sm bg-teal" href="/">btn-teal</a>
+                <a target="_blank" class="margin btn btn-sm bg-navy" href="/">btn-navy</a>
+                <a target="_blank" class="margin btn btn-sm bg-black" href="/">btn-black</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="/">btn-purple</a>
+
+                <a target="_blank" class="margin btn btn-sm btn-success" href="/">btn-success</a>
+                <a target="_blank" class="margin btn btn-sm btn-warning" href="/">btn-warning</a>
+                <a target="_blank" class="margin btn btn-sm btn-danger" href="/">btn-danger</a>
+                <a target="_blank" class="margin btn btn-sm btn-info" href="/">btn-info</a>
+                <a target="_blank" class="margin btn btn-sm btn-primary" href="/">btn-primary</a>
+                <a target="_blank" class="margin btn btn-sm btn-grey" href="/">btn-grey</a>
+            </div>
+
+            <div class="box-body">
                 <a target="_blank" class="margin btn btn-sm bg-olive" href="/">bg-olive</a>
                 <a target="_blank" class="margin btn btn-sm bg-orange" href="/">bg-orange</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="/">bg-maroon</a>
@@ -35,15 +52,6 @@
                 <a target="_blank" class="margin btn btn-sm bg-info" href="/">bg-info</a>
                 <a target="_blank" class="margin btn btn-sm bg-primary" href="/">bg-primary</a>
                 <a target="_blank" class="margin btn btn-sm bg-grey" href="/">bg-grey</a>
-            </div>
-
-            <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm btn-success" href="/">btn-success</a>
-                <a target="_blank" class="margin btn btn-sm btn-warning" href="/">btn-warning</a>
-                <a target="_blank" class="margin btn btn-sm btn-danger" href="/">btn-danger</a>
-                <a target="_blank" class="margin btn btn-sm btn-info" href="/">btn-info</a>
-                <a target="_blank" class="margin btn btn-sm btn-primary" href="/">btn-primary</a>
-                <a target="_blank" class="margin btn btn-sm btn-grey" href="/">btn-grey</a>
             </div>
 
             <div class="box-body">
@@ -79,6 +87,38 @@
             <div class="box-header with-border" style="margin:8px 0 16px;">
                 <h3 class="box-title">Programming.Tools</h3>
             </div>
+
+            <div class="box-body">
+                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://ecs.console.aliyun.com/?spm=5176.200001.0.0.A8JTJ4#/server/region/cn-hangzhou">ECS实例</a>
+                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://netcn.console.aliyun.com/core/domain/list">域名控制台</a>
+                <a target="_blank" class="margin btn btn-sm bg-primary" href="http://116.62.214.223/phpMyAdmin">phpMyAdmin</a>
+                <a target="_blank" class="margin btn btn-sm bg-primary" href="http://qingorg.cn/public/ppma/index.php">ppma</a>
+                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://market.aliyun.com/developer">开发者工具</a>
+                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://qiye.aliyun.com/">阿里企业邮箱</a>
+                <a target="_blank" class="margin btn btn-sm btn-success" href="https://mp.weixin.qq.com/">微信公众平台</a>
+                <a target="_blank" class="margin btn btn-sm btn-success" href="https://exmail.qq.com/cgi-bin/loginpage">腾讯企业邮箱</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://mail.163.com/">网易邮箱</a>
+            </div>
+
+            <div class="box-body">
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://github.com/softorg2017/softorg">softorg</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="https://github.com/">GitHub</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="https://gitlab.com/">GitLab</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="https://gitee.com/">Gitee</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.bootcss.com/">BootCSS</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://expo.bootcss.com/">BootCSS.expo</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.bootcdn.cn/">BootCDN</a>
+                <a target="_blank" class="margin btn btn-sm bg-success" href="http://www.open-open.com/lib/view/open1355830836135.html">Redis</a>
+                <a target="_blank" class="margin btn btn-sm bg-success" href="http://www.bejson.com/">Json验证</a>
+                <a target="_blank" class="margin btn btn-sm bg-success" href="http://www.atool.org/timestamp.php">时间戳</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://github.com/zusaleshi">donghai</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://pandao.github.io/editor.md/">markdown(github)</a>
+                <a target="_blank" class="margin btn btn-sm bg-olive" href="https://space.bilibili.com/11490447#!/">万力B站</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://processon.com/">免费在线作图ProcessOn</a>
+                <a target="_blank" class="margin btn btn-sm bg-success" href="http://echarts.baidu.com/index.html">echarts</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href=""></a>
+            </div>
+
             <div class="box-body">
                 <a target="_blank" class="margin btn btn-sm bg-primary" href="https://adminlte.io/themes/AdminLTE/index2.html">AdminLTE</a>
                 <a target="_blank" class="margin btn btn-sm bg-olive" href="https://laravel.com/docs/5.5">Docs5.5(English)</a>
@@ -91,33 +131,9 @@
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="https://nwidart.com/laravel-modules/v1/introduction">laravel-modules</a>
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="https://codeigniter.org.cn/docs">codeigniter</a>
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="http://www.yiichina.com/">yii中文官网</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="https://oneinstack.com/">oneinstack</a>
                 <a target="_blank" class="margin btn btn-sm bg-purple" href=""></a>
             </div>
-
-            <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://netcn.console.aliyun.com/core/domain/list">域名控制台</a>
-                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://qiye.aliyun.com/">阿里企业邮箱</a>
-                <a target="_blank" class="margin btn btn-sm btn-success" href="https://mp.weixin.qq.com/">微信公众平台</a>
-                <a target="_blank" class="margin btn btn-sm btn-success" href="https://exmail.qq.com/cgi-bin/loginpage">腾讯企业邮箱</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://mail.163.com/">网易邮箱</a>
-            </div>
-
-            <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://github.com/softorg2017/softorg">softorg</a>
-                <a target="_blank" class="margin btn btn-sm bg-purple" href="https://github.com/">GitHub</a>
-                <a target="_blank" class="margin btn btn-sm bg-purple" href="https://gitlab.com/">GitLab</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.bootcss.com/">BootCSS</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://expo.bootcss.com/">BootCSS.expo</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.bootcdn.cn/">BootCDN</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.open-open.com/lib/view/open1355830836135.html">Redis</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.bejson.com/">Json验证</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.atool.org/timestamp.php">时间戳</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://github.com/zusaleshi">donghai</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://pandao.github.io/editor.md/">markdown(github)</a>
-                <a target="_blank" class="margin btn btn-sm bg-olive" href="https://space.bilibili.com/11490447#!/">万力B站</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href=""></a>
-            </div>
-
 
             {{--Article.Laravel--}}
             <div class="box-header with-border" style="margin:8px 0 16px;">
@@ -132,6 +148,7 @@
                 <a target="_blank" class="margin btn btn-sm bg-olive" href="http://coding.imooc.com/class/chapter/111.html">Laravel 5.4 快速开发简书（课程）</a>
                 <a target="_blank" class="margin btn btn-sm bg-olive" href="https://d.laravel-china.org/docs/5.5/migrations">migrations 数据迁移</a>
                 <a target="_blank" class="margin btn btn-sm bg-olive" href="http://www.maatwebsite.nl/laravel-excel/docs">Laravel Excel</a>
+                <a target="_blank" class="margin btn btn-sm bg-olive" href="https://oneinstack.com/docs/lampstack-image-guide/">LAMP环境镜像使用手册</a>
                 <a target="_blank" class="margin btn btn-sm bg-olive" href=""></a>
             </div>
 
@@ -218,8 +235,11 @@
 
             <div class="box-body">
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="http://list.youku.com/show/id_z6e782defbfbd0d4e11ef.html">晓松奇谈2017</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://list.youku.com/show/id_z5bdbf57c947311e3b8b7.html">罗辑思维</a>
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="http://www.iqiyi.com/a_19rrh9pwd9.html">坑王驾到</a>
-                <a target="_blank" class="margin btn btn-sm bg-purple" href=""></a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://v.qq.com/detail/4/49622.html">十三邀 1</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://v.qq.com/detail/6/68145.html">十三邀 2</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://list.youku.com/show/id_z7c87f1ae8e6311e5b522.html">一千零一夜</a>
                 <a target="_blank" class="margin btn btn-sm bg-purple" href=""></a>
             </div>
 
@@ -228,13 +248,22 @@
                 <h3 class="box-title">Life.Tools</h3>
             </div>
             <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.zhaopin.com/">智联招聘</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.gsxt.gov.cn/index.html">企业信用信息</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://xin.baidu.com/">百度企业信用</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://www.tianyancha.com/">天眼查</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://salarycalculator.sinaapp.com/">上海税后工资计算器</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://checkcoverage.apple.com/cn/zh/">apple保修服务和支持期限</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.miitbeian.gov.cn">ICP备案</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.chsi.com.cn/">学信网</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://checkcoverage.apple.com/cn/zh/">apple保修服务和支持期限</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href=""></a>
+            </div>
+
+
+            <div class="box-header with-border" style="margin:8px 0 16px;">
+                <h3 class="box-title">Life.Tools</h3>
+            </div>
+            <div class="box-body">
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.zhaopin.com/">智联招聘</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href=""></a>
             </div>
 
@@ -260,7 +289,7 @@
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.youguard.cn/">上海誉甲自动化技术有限公司</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.10years.me/account/login">10年后</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.justsy.com">嘉兴嘉赛</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href=""></a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://www.vipp.com/en-us">vipp</a>
             </div>
 
             <div class="box-header with-border" style="margin:8px 0 16px;">
