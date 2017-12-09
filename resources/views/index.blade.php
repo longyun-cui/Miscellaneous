@@ -55,8 +55,8 @@
             </div>
 
             <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.cn:8088/admin">企业站后台</a>
-                <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.cn:8088/org/1">企业站前台</a>
+                <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.cn/admin">企业站后台</a>
+                <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.cn/org/1">企业站前台</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo8.cn:8088/login">登录页</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo8.cn:8088/guest">游客页</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo.date:8088/admin">作品</a>
@@ -89,10 +89,10 @@
             </div>
 
             <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://ecs.console.aliyun.com/?spm=5176.200001.0.0.A8JTJ4#/server/region/cn-hangzhou">ECS实例</a>
+                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://ecs.console.aliyun.com/#/server/region/cn-hangzhou">ECS实例</a>
                 <a target="_blank" class="margin btn btn-sm bg-primary" href="https://netcn.console.aliyun.com/core/domain/list">域名控制台</a>
                 <a target="_blank" class="margin btn btn-sm bg-primary" href="http://116.62.214.223/phpMyAdmin">phpMyAdmin</a>
-                <a target="_blank" class="margin btn btn-sm bg-primary" href="http://qingorg.cn/public/ppma/index.php">ppma</a>
+                <a target="_blank" class="margin btn btn-sm bg-primary" href="http://116.62.214.223/public/ppma/index.php">ppma</a>
                 <a target="_blank" class="margin btn btn-sm bg-primary" href="https://market.aliyun.com/developer">开发者工具</a>
                 <a target="_blank" class="margin btn btn-sm bg-primary" href="https://qiye.aliyun.com/">阿里企业邮箱</a>
                 <a target="_blank" class="margin btn btn-sm btn-success" href="https://mp.weixin.qq.com/">微信公众平台</a>
@@ -116,6 +116,8 @@
                 <a target="_blank" class="margin btn btn-sm bg-olive" href="https://space.bilibili.com/11490447#!/">万力B站</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://processon.com/">免费在线作图ProcessOn</a>
                 <a target="_blank" class="margin btn btn-sm bg-success" href="http://echarts.baidu.com/index.html">echarts</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://tool.chinaz.com/">站长工具</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://tool.oschina.net/encrypt?type=2">在线加密解密</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href=""></a>
             </div>
 
@@ -236,7 +238,8 @@
             <div class="box-body">
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="http://list.youku.com/show/id_z6e782defbfbd0d4e11ef.html">晓松奇谈2017</a>
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="http://list.youku.com/show/id_z5bdbf57c947311e3b8b7.html">罗辑思维</a>
-                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://www.iqiyi.com/a_19rrh9pwd9.html">坑王驾到</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://www.iqiyi.com/a_19rrh9pwd9.html">坑王驾到 1</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://www.iqiyi.com/a_19rrhcoc51.html">坑王驾到 2</a>
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="http://v.qq.com/detail/4/49622.html">十三邀 1</a>
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="http://v.qq.com/detail/6/68145.html">十三邀 2</a>
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="http://list.youku.com/show/id_z7c87f1ae8e6311e5b522.html">一千零一夜</a>
