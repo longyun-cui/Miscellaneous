@@ -90,7 +90,8 @@
 
             <div class="box-body">
                 <a target="_blank" class="margin btn btn-sm bg-primary" href="https://ecs.console.aliyun.com/#/server/region/cn-hangzhou">ECS实例</a>
-                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://netcn.console.aliyun.com/core/domain/list">域名控制台</a>
+                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://netcn.console.aliyun.com/core/domain/list">域名</a>
+                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://dysms.console.aliyun.com/dysms.htm">短信</a>
                 <a target="_blank" class="margin btn btn-sm bg-primary" href="http://116.62.214.223/phpMyAdmin">phpMyAdmin</a>
                 <a target="_blank" class="margin btn btn-sm bg-primary" href="http://116.62.214.223/public/ppma/index.php">ppma</a>
                 <a target="_blank" class="margin btn btn-sm bg-primary" href="https://market.aliyun.com/developer">开发者工具</a>
@@ -108,16 +109,21 @@
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.bootcss.com/">BootCSS</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://expo.bootcss.com/">BootCSS.expo</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.bootcdn.cn/">BootCDN</a>
+                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://oneinstack.com/docs/lampstack-image-guide/">LAMP环境镜像使用手册</a>
                 <a target="_blank" class="margin btn btn-sm bg-success" href="http://www.open-open.com/lib/view/open1355830836135.html">Redis</a>
                 <a target="_blank" class="margin btn btn-sm bg-success" href="http://www.bejson.com/">Json验证</a>
                 <a target="_blank" class="margin btn btn-sm bg-success" href="http://www.atool.org/timestamp.php">时间戳</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://github.com/zusaleshi">donghai</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://pandao.github.io/editor.md/">markdown(github)</a>
                 <a target="_blank" class="margin btn btn-sm bg-olive" href="https://space.bilibili.com/11490447#!/">万力B站</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://cloudconvert.com/">cloudconvert WebP转图片</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://isparta.github.io/">isparta WebP转图片</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://processon.com/">免费在线作图ProcessOn</a>
                 <a target="_blank" class="margin btn btn-sm bg-success" href="http://echarts.baidu.com/index.html">echarts</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://tool.chinaz.com/">站长工具</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://tool.oschina.net/encrypt?type=2">在线加密解密</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://www.liaoxuefeng.com/">廖雪峰</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href=""></a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href=""></a>
             </div>
 
@@ -209,6 +215,105 @@
     </div>
 </div>
 
+
+{{--Reading--}}
+<div class="row">
+    <div class="col-md-12">
+        <!-- BEGIN PORTLET-->
+        <div class="box box-info">
+
+            <div class="box-header with-border" style="margin:8px 0 16px;">
+                <h3 class="box-title">Reading 读书</h3>
+            </div>
+
+            <div class="box-header with-border" style="margin:8px 0 16px;">
+                <h3 class="box-title">Miscellaneous</h3>
+            </div>
+            <div class="box-body">
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://www.juzimi.com/">句子迷</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/guwen/book_1.aspx">《山海经》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/guwen/book_67.aspx">《徐霞客游记》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/guwen/book_51.aspx">《笑林广记》</a>
+
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/guwen/book_3.aspx">《孙子兵法》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/guwen/book_4.aspx">《三十六计》</a>
+            </div>
+
+            <div class="box-header with-border" style="margin:8px 0 16px;">
+                <h3 class="box-title">国学</h3>
+            </div>
+            <div class="box-body">
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://v.qq.com/detail/8/8jwd4d9xbyar2u1.html">蔡志忠</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/guwen/book_6.aspx">《周易》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/guwen/book_28.aspx">《老子》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/guwen/book_26.aspx">《庄子》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/guwen/book_2.aspx">《论语》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/guwen/book_11.aspx">《孟子》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/guwen/book_20.aspx">《大学》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/guwen/book_21.aspx">《中庸》</a>
+
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/guwen/book_18.aspx">《世说新语》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/guwen/book_75.aspx">《菜根谭》</a>
+
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://www.daodejing.org/">《道德经》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://www.fosss.org/Book/ZhuangZi/Index.html">《庄子》白话译注</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://www.quanxue.cn/CT_DaoJia/ZhuangZiIndex.html">《庄子》劝学网</a>
+            </div>
+
+            <div class="box-header with-border" style="margin:8px 0 16px;">
+                <h3 class="box-title">历史</h3>
+            </div>
+            <div class="box-body">
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/guwen/book_5.aspx">《史记》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/guwen/book_8.aspx">《资治通鉴》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/guwen/book_9.aspx">《续资治通鉴》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/guwen/book_40.aspx">《汉书》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/guwen/book_41.aspx">《后汉书》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/guwen/book_54.aspx">《三国志》</a>
+
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/guwen/book_19.aspx">《左传》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/guwen/book_143.aspx">《公羊传》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/guwen/book_44.aspx">《吕氏春秋》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/guwen/book_53.aspx">《战国策》</a>
+            </div>
+
+            <div class="box-header with-border" style="margin:8px 0 16px;">
+                <h3 class="box-title">诗词歌赋</h3>
+            </div>
+            <div class="box-body">
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/gushi/sanbai.aspx">《古诗三百首》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/gushi/tangshi.aspx">《唐诗三百首》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/gushi/songsan.aspx">《宋词三百首》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/gushi/shijing.aspx">《诗经》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/gushi/chuci.aspx">《楚辞》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/gushi/yuefu.aspx">《乐府诗集选》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/wenyan/guanzhi.aspx">《古文观止》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href=""></a>
+            </div>
+
+            <div class="box-header with-border" style="margin:8px 0 16px;">
+                <h3 class="box-title">名著</h3>
+            </div>
+            <div class="box-body">
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/guwen/book_105.aspx">《红楼梦》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/guwen/book_106.aspx">《三国演义》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/guwen/book_107.aspx">《水浒传》</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://so.gushiwen.org/guwen/book_108.aspx">《西游记》</a>
+            </div>
+
+            <div class="box-header with-border" style="margin:8px 0 16px;">
+                <h3 class="box-title"></h3>
+            </div>
+            <div class="box-body">
+            </div>
+
+        </div>
+        <!-- END PORTLET-->
+    </div>
+</div>
+
+
+
 {{--Documents--}}
 <div class="row">
     <div class="col-md-12">
@@ -227,11 +332,14 @@
             </div>
 
             <div class="box-body">
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://www.dy2018.com/">dy2018</a>
                 <a target="_blank" class="margin btn btn-sm bg-olive" href="http://www.youku.com/">优酷</a>
                 <a target="_blank" class="margin btn btn-sm bg-olive" href="https://v.qq.com/">腾讯视频</a>
                 <a target="_blank" class="margin btn btn-sm bg-olive" href="http://www.iqiyi.com/">爱奇艺</a>
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="https://www.iqiyi.com/a_19rrhb3xvl.html">海贼王</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://www.ashleymadison.com">ashleymadison</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="https://weibo.com/u/2427880080/home">微博</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="https://www.douban.com/">豆瓣</a>
                 <a target="_blank" class="margin btn btn-sm bg-purple" href=""></a>
             </div>
 
@@ -244,6 +352,22 @@
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="http://v.qq.com/detail/6/68145.html">十三邀 2</a>
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="http://list.youku.com/show/id_z7c87f1ae8e6311e5b522.html">一千零一夜</a>
                 <a target="_blank" class="margin btn btn-sm bg-purple" href=""></a>
+            </div>
+
+            <div class="box-body">
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="https://www.amazon.cn/">亚马逊</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="https://www.jd.com/">京东</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="https://luojisiwei.tmall.com/category.htm?spm=a1z10.3-b-s.w4011-14454324002.43.5eeR3T&search=y&orderType=newOn_desc">罗辑思维</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href=""></a>
+            </div>
+
+            <div class="box-header with-border" style="margin:8px 0 16px;">
+                <h3 class="box-title">Sports</h3>
+            </div>
+            <div class="box-body">
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://www.zhibo8.cc/">直播吧</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://sports.sina.com.cn/g/pl/table.html">英超积分榜</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href=""></a>
             </div>
 
 
@@ -302,6 +426,8 @@
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.hellorf.com/">站酷海洛</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href=""></a>
             </div>
+
+
 
         </div>
         <!-- END PORTLET-->
