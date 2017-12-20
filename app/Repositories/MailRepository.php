@@ -37,7 +37,8 @@ class MailRepository {
         $variate['email'] = $post_data['email'];
         $variate['activity_id'] = $post_data['activity_id'];
         $variate['apply_id'] = $post_data['apply_id'];
-        $variate['activity'] = $post_data['activity'];
+        $variate['title'] = $post_data['title'];
+        $variate['is_sign'] = $post_data['is_sign'];
         $variate['password'] = isset($post_data['password']) ? $post_data['password'] : '';
 
         // 第一个参数填写模板的路径，第二个参数填写传到模板的变量

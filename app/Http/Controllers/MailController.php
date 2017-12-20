@@ -55,11 +55,18 @@ class MailController extends Controller
 
     public function test()
     {
-        $post_data['sort'] = 'admin_activation';
+        $post_data['sort'] = 'activity_apply';
         $post_data['type'] = 1;
         $post_data['admin_id'] = 1;
         $post_data['code'] = 1;
         $post_data['target'] = 'longyun-cui@163.com';
+
+        $post_data['email'] = 'longyun-cui@163.com';
+        $post_data['activity_id'] = 1;
+        $post_data['apply_id'] = 1;
+        $post_data['title'] = 'title';
+        $post_data['is_sign'] = 1;
+        $post_data['password'] = '4568';
 
         $url = 'http://qingorg.cn:8088/email/send';
         $ch = curl_init();
