@@ -28,3 +28,7 @@ Route::get('/tools', function () {
 
 
 Route::match(['get','post'], '/test/tool','TestController@tool');
+
+
+Route::match(['get','post'], '/email/send','MailController@send');
+//Route::match(['get','post'], '/email/test','MailController@test');
