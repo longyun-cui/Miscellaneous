@@ -61,7 +61,7 @@ class MailController extends Controller
         $post_data['code'] = 1;
         $post_data['target'] = 'longyun-cui@163.com';
 
-        $url = 'http://gps.com/email/send';
+        $url = 'http://qingorg.cn:8088/email/send';
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
