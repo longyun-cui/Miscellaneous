@@ -106,9 +106,10 @@
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="https://github.com/">GitHub</a>
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="https://gitlab.com/">GitLab</a>
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="https://gitee.com/">Gitee</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.bootcss.com/">BootCSS</a>
+                <a target="_blank" class="margin btn btn-sm btn-success" href="http://www.bootcss.com/">BootCSS</a>
+                <a target="_blank" class="margin btn btn-sm btn-success" href="http://www.bootcdn.cn/">BootCDN</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://expo.bootcss.com/">BootCSS.expo</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.bootcdn.cn/">BootCDN</a>
+                <a target="_blank" class="margin btn btn-sm bg-success" href="http://echarts.baidu.com/index.html">echarts</a>
                 <a target="_blank" class="margin btn btn-sm bg-primary" href="https://oneinstack.com/docs/lampstack-image-guide/">LAMP环境镜像使用手册</a>
                 <a target="_blank" class="margin btn btn-sm bg-success" href="http://www.open-open.com/lib/view/open1355830836135.html">Redis</a>
                 <a target="_blank" class="margin btn btn-sm bg-success" href="http://www.bejson.com/">Json验证</a>
@@ -119,12 +120,16 @@
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://cloudconvert.com/">cloudconvert WebP转图片</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://isparta.github.io/">isparta WebP转图片</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://processon.com/">免费在线作图ProcessOn</a>
-                <a target="_blank" class="margin btn btn-sm bg-success" href="http://echarts.baidu.com/index.html">echarts</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://tool.chinaz.com/">站长工具</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://tool.oschina.net/encrypt?type=2">在线加密解密</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://www.liaoxuefeng.com/">廖雪峰</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href=""></a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href=""></a>
+            </div>
+
+            {{--Documents--}}
+            <div class="box-header with-border" style="margin:8px 0 16px;">
+                <h3 class="box-title">Documents</h3>
             </div>
 
             <div class="box-body">
@@ -333,8 +338,8 @@
 
             <div class="box-body">
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="http://www.dy2018.com/">dy2018</a>
-                <a target="_blank" class="margin btn btn-sm bg-olive" href="http://www.youku.com/">优酷</a>
-                <a target="_blank" class="margin btn btn-sm bg-olive" href="https://v.qq.com/">腾讯视频</a>
+                <a target="_blank" class="margin btn btn-sm bg-info" href="http://www.youku.com/">优酷</a>
+                <a target="_blank" class="margin btn btn-sm bg-success" href="https://v.qq.com/">腾讯视频</a>
                 <a target="_blank" class="margin btn btn-sm bg-olive" href="http://www.iqiyi.com/">爱奇艺</a>
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="https://www.iqiyi.com/a_19rrhb3xvl.html">海贼王</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://www.ashleymadison.com">ashleymadison</a>
@@ -344,7 +349,7 @@
             </div>
 
             <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://list.youku.com/show/id_z6e782defbfbd0d4e11ef.html">晓松奇谈2017</a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://list.youku.com/show/id_z6e782defbfbd0d4e11ef.html">晓说2017</a>
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="http://list.youku.com/show/id_z5bdbf57c947311e3b8b7.html">罗辑思维</a>
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="http://www.iqiyi.com/a_19rrh9pwd9.html">坑王驾到 1</a>
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="http://www.iqiyi.com/a_19rrhcoc51.html">坑王驾到 2</a>
