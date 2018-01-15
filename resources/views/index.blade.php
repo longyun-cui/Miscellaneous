@@ -359,6 +359,9 @@
                 <a target="_blank" class="margin btn btn-sm bg-purple" href=""></a>
             </div>
 
+            <div class="box-header with-border" style="margin:8px 0 16px;">
+                <h3 class="box-title">Buy</h3>
+            </div>
             <div class="box-body">
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="https://www.amazon.cn/">亚马逊</a>
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="https://www.jd.com/">京东</a>
@@ -372,6 +375,11 @@
             <div class="box-body">
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://www.zhibo8.cc/">直播吧</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://sports.sina.com.cn/g/pl/table.html">英超积分榜</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://sports.qq.com/">腾讯体育</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://sports.qq.com/nba/">腾讯NBA</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://sports.pptv.com/">PPTV</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://weibo.com/donglu?is_all=1">董路微博</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.yizhibo.com/member/personel/user_info?memberid=39369208">董路一直播</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href=""></a>
             </div>
 
