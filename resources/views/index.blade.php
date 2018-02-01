@@ -351,12 +351,15 @@
             <div class="box-body">
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="http://list.youku.com/show/id_z6e782defbfbd0d4e11ef.html">晓说2017</a>
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="http://list.youku.com/show/id_z5bdbf57c947311e3b8b7.html">罗辑思维</a>
-                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://www.iqiyi.com/a_19rrh9pwd9.html">坑王驾到 1</a>
-                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://www.iqiyi.com/a_19rrhcoc51.html">坑王驾到 2</a>
-                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://v.qq.com/detail/4/49622.html">十三邀 1</a>
-                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://v.qq.com/detail/6/68145.html">十三邀 2</a>
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="http://list.youku.com/show/id_z7c87f1ae8e6311e5b522.html">一千零一夜</a>
-                <a target="_blank" class="margin btn btn-sm bg-purple" href=""></a>
+                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://list.youku.com/show/id_z662fefbfbd61efbfbdef.html">一千零一夜（走出季）</a>
+                <a target="_blank" class="margin btn btn-sm bg-primary" href="http://list.youku.com/show/id_z66ba2c36920211e6b9bb.html">圆桌派第1季</a>
+                <a target="_blank" class="margin btn btn-sm bg-primary" href="http://list.youku.com/show/id_z3127efbfbd11250911ef.html">圆桌派第2季</a>
+                <a target="_blank" class="margin btn btn-sm bg-primary" href="http://list.youku.com/show/id_zefbfbd3cefbfbd64efbf.html">圆桌派第3季</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://v.qq.com/detail/4/49622.html">十三邀 1</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://v.qq.com/detail/6/68145.html">十三邀 2</a>
+                <a target="_blank" class="margin btn btn-sm bg-success" href="http://www.iqiyi.com/a_19rrh9pwd9.html">坑王驾到 1</a>
+                <a target="_blank" class="margin btn btn-sm bg-success" href="http://www.iqiyi.com/a_19rrhcoc51.html">坑王驾到 2</a>
             </div>
 
             <div class="box-header with-border" style="margin:8px 0 16px;">
