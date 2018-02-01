@@ -89,11 +89,12 @@
             </div>
 
             <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://ecs.console.aliyun.com/#/server/region/cn-hangzhou">ECS实例</a>
+                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://ecs.console.aliyun.com/#/server/region/cn-hangzhou">ECS-HZ</a>
+                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://ecs.console.aliyun.com/#/server/region/cn-hongkong">ECS-HK</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://116.62.214.223/public/ppma/index.php">HZ-phpMyAdmin</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://47.52.149.252/phpMyAdmin/">HK-phpMyAdmin</a>
                 <a target="_blank" class="margin btn btn-sm bg-primary" href="https://netcn.console.aliyun.com/core/domain/list">域名</a>
                 <a target="_blank" class="margin btn btn-sm bg-primary" href="https://dysms.console.aliyun.com/dysms.htm">短信</a>
-                <a target="_blank" class="margin btn btn-sm bg-primary" href="http://116.62.214.223/phpMyAdmin">phpMyAdmin</a>
-                <a target="_blank" class="margin btn btn-sm bg-primary" href="http://116.62.214.223/public/ppma/index.php">ppma</a>
                 <a target="_blank" class="margin btn btn-sm bg-primary" href="https://market.aliyun.com/developer">开发者工具</a>
                 <a target="_blank" class="margin btn btn-sm bg-primary" href="https://qiye.aliyun.com/">阿里企业邮箱</a>
                 <a target="_blank" class="margin btn btn-sm btn-success" href="https://mp.weixin.qq.com/">微信公众平台</a>
