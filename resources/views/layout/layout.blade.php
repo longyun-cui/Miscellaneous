@@ -64,15 +64,15 @@ desired effect
     <header class="main-header">
 
         <!-- Logo -->
-        <a href="index2.html" class="logo">
+        <a href="index2.html" class="logo" style="background-color:#222d32;">
             <!-- mini logo for sidebar mini 50x50 pixels -->
-            <span class="logo-mini"><b>A</b>LT</span>
+            <span class="logo-mini"><b>GPS</b></span>
             <!-- logo for regular state and mobile devices -->
-            <span class="logo-lg"><b>企业站</b></span>
+            <span class="logo-lg"><b>导航</b></span>
         </a>
 
         <!-- Header Navbar -->
-        <nav class="navbar navbar-static-top" role="navigation">
+        <nav class="navbar navbar-static-top" role="navigation" style="background-color:#1a2226;">
             <!-- Sidebar toggle button-->
             <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
                 <span class="sr-only">Toggle navigation</span>
