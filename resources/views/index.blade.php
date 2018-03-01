@@ -60,7 +60,7 @@
 
             <div class="box-body">
                 <a target="_blank" class="margin btn btn-sm btn-warning" href="http://live2.pub:8088/">邮件服务器 live2.pub:8088</a>
-                <a target="_blank" class="margin btn btn-sm btn-info" href="http://live8.pub">三人行 live8.pub</a>
+                <a target="_blank" class="margin btn btn-sm btn-info" href="http://softdoc.cn">三人行 softdoc.cn</a>
                 <a target="_blank" class="margin btn btn-sm btn-primary" href="http://longyun88.win">作者与作品 longyun88.win</a>
                 <a target="_blank" class="margin btn btn-sm btn-danger" href="http://longyun.pub">图表站 longyun.pub</a>
                 <a target="_blank" class="margin btn btn-sm btn-success" href="http://you2.pub">树洞 you2.pub</a>
