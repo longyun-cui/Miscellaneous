@@ -59,11 +59,14 @@
             </div>
 
             <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm btn-warning" href="http://live2.pub:8088/">邮件服务器 live2.pub:8088</a>
-                <a target="_blank" class="margin btn btn-sm btn-info" href="http://softdoc.cn">三人行 softdoc.cn</a>
-                <a target="_blank" class="margin btn btn-sm btn-primary" href="http://longyun88.win">作者与作品 longyun88.win</a>
+                <a target="_blank" class="margin btn btn-sm btn-primary" href="http://live2.pub:8088/">邮件服务器 live2.pub:8088</a>
+                <a target="_blank" class="margin btn btn-sm btn-primary" href="http://cuilongyun.win:8088/">邮件服务器 cuilongyun.win:8088</a>
+                <a target="_blank" class="margin btn btn-sm btn-warning" href="http://softdoc.cn">三人行 softdoc.cn</a>
+                <a target="_blank" class="margin btn btn-sm btn-success" href="http://longyun88.win">作者与作品 longyun88.win</a>
+                <a target="_blank" class="margin btn btn-sm btn-danger" href="http://longyun.date">图表站 longyun.date</a>
                 <a target="_blank" class="margin btn btn-sm btn-danger" href="http://longyun.pub">图表站 longyun.pub</a>
-                <a target="_blank" class="margin btn btn-sm btn-success" href="http://you2.pub">树洞 you2.pub</a>
+                <a target="_blank" class="margin btn btn-sm btn-info" href="http://qingbo.date">话题 qingbo.date</a>
+                <a target="_blank" class="margin btn btn-sm btn-info" href="http://you2.pub">树洞 you2.pub</a>
             </div>
 
             <div class="box-body">
@@ -258,7 +261,7 @@
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://customer.medsci.cn/novonordisk/meeting/list/nhnd">诺和诺德</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://customer.medsci.cn/glypressin/index">可利新</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://customer.medsci.cn/glypressin/record/export">可利新下载</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href=""></a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://trial.medsci.cn/">患者招募</a>
             </div>
 
         </div>
@@ -443,6 +446,7 @@
                 <a target="_blank" class="margin btn btn-sm btn-success" href="http://sports.qq.com/">腾讯体育</a>
                 <a target="_blank" class="margin btn btn-sm btn-success" href="http://sports.qq.com/nba">腾讯NBA</a>
                 <a target="_blank" class="margin btn btn-sm btn-success" href="https://weibo.com/donglu?is_all=1">董路微博</a>
+                <a target="_blank" class="margin btn btn-sm btn-success" href="http://star.longzhu.com/donglu/sport">董路龙珠</a>
                 <a target="_blank" class="margin btn btn-sm btn-success" href="http://www.yizhibo.com/member/personel/user_info?memberid=39369208">董路一直播</a>
                 <a target="_blank" class="margin btn btn-sm btn-success" href="http://www.stat-nba.com/query.php?QueryType=all&AllType=season&AT=tot&order=1&crtcol=threep&PageNum=50">NBA-数据库</a>
             </div>
