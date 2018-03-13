@@ -14,11 +14,7 @@
 <div class="row">
     <div class="col-md-12">
         <!-- BEGIN PORTLET-->
-        <div class="box box-info">
-
-            <div class="box-header with-border" style="margin:4px 0 16px">
-                <h3 class="box-title">AdminLTE</h3>
-            </div>
+        <div class="box box-default">
 
             <div class="box-body">
                 <a target="_blank" class="margin btn btn-sm bg-olive" href="/">btn-olive</a>
@@ -63,11 +59,13 @@
                 <a target="_blank" class="margin btn btn-sm btn-primary" href="http://cuilongyun.win:8088/">邮件服务器 cuilongyun.win:8088</a>
 
                 <a target="_blank" class="margin btn btn-sm btn-warning" href="http://softdoc.cn">三人行 softdoc.cn</a>
+                <a target="_blank" class="margin btn btn-sm btn-warning" href="http://cuilongyun.pub">三人行 cuilongyun.pub</a>
+                <a target="_blank" class="margin btn btn-sm btn-warning" href="http://cuilongyun.date">三人行 cuilongyun.date</a>
 
                 <a target="_blank" class="margin btn btn-sm btn-info" href="http://topicbus.cn">话题社 topicbus.cn</a>
                 <a target="_blank" class="margin btn btn-sm btn-info" href="http://qingbo.date">话题社 qingbo.date</a>
 
-                <a target="_blank" class="margin btn btn-sm btn-info" href="http://you2.pub">树洞 you2.pub</a>
+                <a target="_blank" class="margin btn btn-sm bg-info" href="http://you2.pub">树洞 you2.pub</a>
 
                 <a target="_blank" class="margin btn btn-sm btn-success" href="http://softpub.cn">作者与作品 softpub.cn</a>
                 <a target="_blank" class="margin btn btn-sm btn-success" href="http://longyun88.win">作者与作品 longyun88.win</a>
@@ -107,7 +105,7 @@
 <div class="row">
     <div class="col-md-12">
         <!-- BEGIN PORTLET-->
-        <div class="box box-info">
+        <div class="box box-default">
 
             <div class="box-header with-border" style="margin:4px 0 16px">
                 <h3 class="box-title">Developing</h3>
@@ -118,8 +116,8 @@
                 <a target="_blank" class="margin btn btn-sm bg-primary" href="https://ecs.console.aliyun.com/#/server/region/cn-hongkong">ECS-HK</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://116.62.214.223/public/ppma/index.php">HZ-phpMyAdmin</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://47.52.149.252/phpMyAdmin/">HK-phpMyAdmin</a>
-                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://netcn.console.aliyun.com/core/domain/list">域名</a>
-                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://dysms.console.aliyun.com/dysms.htm">短信</a>
+                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://netcn.console.aliyun.com/core/domain/list">阿里域名</a>
+                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://dysms.console.aliyun.com/dysms.htm">阿里短信</a>
                 <a target="_blank" class="margin btn btn-sm bg-primary" href="https://market.aliyun.com/developer">阿里云开发者工具</a>
                 <a target="_blank" class="margin btn btn-sm bg-primary" href="https://qiye.aliyun.com/">阿里企业邮箱</a>
             </div>
@@ -378,7 +376,7 @@
 <div class="row">
     <div class="col-md-12">
         <!-- BEGIN PORTLET-->
-        <div class="box box-info">
+        <div class="box box-default">
 
             <div class="box-header with-border" style="margin:4px 0 16px">
                 <h3 class="box-title">Life</h3>
@@ -492,7 +490,7 @@
 <div class="row">
     <div class="col-md-12">
         <!-- BEGIN PORTLET-->
-        <div class="box box-info">
+        <div class="box box-default">
 
             <div class="box-header with-border" style="margin:4px 0 16px">
                 <h3 class="box-title">企业首页</h3>

@@ -296,7 +296,7 @@ desired effect
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
         <!-- Content Header (Page header) -->
-        <section class="content-header">
+        <section class="content-header" style="display:none;">
             <h1>
                 @yield('header')
                 <small>@yield('description')</small>
