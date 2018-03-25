@@ -150,6 +150,7 @@
                 <a target="_blank" class="margin btn btn-sm btn-success" href="http://expo.bootcss.com/">BootCSS.expo</a>
                 <a target="_blank" class="margin btn btn-sm btn-danger" href="http://echarts.baidu.com/index.html">echarts</a>
                 <a target="_blank" class="margin btn btn-sm bg-primary" href="https://adminlte.io/themes/AdminLTE/index2.html">AdminLTE</a>
+                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://adminlte.io/themes/AdminLTE/pages/UI/icons.html">Icons</a>
             </div>
 
             <div class="box-body">
@@ -454,6 +455,7 @@
                 <a target="_blank" class="margin btn btn-sm btn-success" href="http://star.longzhu.com/donglu/sport">董路龙珠</a>
                 <a target="_blank" class="margin btn btn-sm btn-success" href="http://www.yizhibo.com/member/personel/user_info?memberid=39369208">董路一直播</a>
                 <a target="_blank" class="margin btn btn-sm btn-success" href="http://www.stat-nba.com/query.php?QueryType=all&AllType=season&AT=tot&order=1&crtcol=threep&PageNum=50">NBA-数据库</a>
+                <a target="_blank" class="margin btn btn-sm btn-success" href="https://www.transfermarkt.com/">德国转会市场</a>
             </div>
 
 
