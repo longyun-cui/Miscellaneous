@@ -381,11 +381,10 @@
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.google.cn/maps">Google地图</a>
                 <a target="_blank" class="margin btn btn-sm bg-purple" href="http://map.baidu.com">百度地图</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://map.baidu.com/subways/index.html?c=shanghai">上海地铁</a>
-                <a target="_blank" class="margin btn btn-sm bg-purple" href="https://netcn.console.aliyun.com/core/domain/list">域名控制台</a>
             </div>
 
             <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://www.dy2018.com/">dy2018</a>
+                <a target="_blank" class="margin btn btn-sm btn-success" href="http://www.dy2018.com/">dy2018</a>
                 <a target="_blank" class="margin btn btn-sm bg-info" href="http://www.youku.com/">优酷</a>
                 <a target="_blank" class="margin btn btn-sm bg-success" href="https://v.qq.com/">腾讯视频</a>
                 <a target="_blank" class="margin btn btn-sm bg-olive" href="http://www.iqiyi.com/">爱奇艺</a>
@@ -406,6 +405,9 @@
             </div>
 
             <div class="box-body">
+                <a target="_blank" class="margin btn btn-sm bg-info" href="http://v.qq.com/detail/6/68145.html">十三邀 2</a>
+                <a target="_blank" class="margin btn btn-sm bg-info" href="http://v.qq.com/detail/4/49622.html">十三邀 1</a>
+
                 <a target="_blank" class="margin btn btn-sm bg-danger" href="http://list.youku.com/show/id_z662fefbfbd61efbfbdef.html">一千零一夜走出季</a>
                 <a target="_blank" class="margin btn btn-sm bg-danger" href="http://list.youku.com/show/id_z7c87f1ae8e6311e5b522.html">一千零一夜</a>
 
@@ -413,8 +415,8 @@
                 <a target="_blank" class="margin btn btn-sm bg-warning" href="http://list.youku.com/show/id_z3127efbfbd11250911ef.html">圆桌派第2季</a>
                 <a target="_blank" class="margin btn btn-sm bg-warning" href="http://list.youku.com/show/id_z66ba2c36920211e6b9bb.html">圆桌派第1季</a>
 
-                <a target="_blank" class="margin btn btn-sm bg-info" href="http://v.qq.com/detail/6/68145.html">十三邀 2</a>
-                <a target="_blank" class="margin btn btn-sm bg-info" href="http://v.qq.com/detail/4/49622.html">十三邀 1</a>
+                <a target="_blank" class="margin btn btn-sm bg-info" href="http://list.youku.com/show/id_zefbfbdefbfbd3e0defbf.html">局部 2</a>
+                <a target="_blank" class="margin btn btn-sm bg-info" href="http://list.youku.com/show/id_zcc117696c7cb11e4b432.html">局部 1</a>
             </div>
 
             <div class="box-body">
@@ -429,9 +431,9 @@
                 <h3 class="box-title">Buy</h3>
             </div>
             <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm bg-teal" href="https://www.amazon.cn/">亚马逊</a>
-                <a target="_blank" class="margin btn btn-sm bg-teal" href="https://www.jd.com/">京东</a>
-                <a target="_blank" class="margin btn btn-sm bg-teal" href="https://luojisiwei.tmall.com/category.htm?spm=a1z10.3-b-s.w4011-14454324002.43.5eeR3T&search=y&orderType=newOn_desc">罗辑思维</a>
+                <a target="_blank" class="margin btn btn-sm btn-default" href="https://www.amazon.cn/">亚马逊</a>
+                <a target="_blank" class="margin btn btn-sm bg-danger" href="https://www.jd.com/">京东</a>
+                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://luojisiwei.tmall.com/category.htm?spm=a1z10.3-b-s.w4011-14454324002.43.5eeR3T&search=y&orderType=newOn_desc">罗辑思维</a>
             </div>
 
             <div class="box-header with-border">
