@@ -78,6 +78,7 @@
                 <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.cn/org/register">企业站注册</a>
                 <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.cn/org/admin">企业站后台</a>
                 <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.cn/o/softorg">企业站前台</a>
+                <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.cn/developing/style/gps">GPS</a>
 
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo8.cn:8088/login">登录页</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo8.cn:8088/guest">游客页</a>
