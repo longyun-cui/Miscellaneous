@@ -108,6 +108,21 @@
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo8.cn:8088/testProgram">qingbo.testProgram</a>
             </div>
 
+            <div class="box-header with-border">
+                <h3 class="box-title">LY.Product</h3>
+            </div>
+
+            <div class="box-body">
+                <a target="_blank" class="margin btn btn-sm bg-blue" href="http://tinymax.cn">汉盟地产</a>
+                <a target="_blank" class="margin btn btn-sm bg-blue" href="http://shxmyj.com">盛贝地产</a>
+            </div>
+
+            <div class="box-body">
+                <a target="_blank" class="margin btn btn-sm bg-blue" href="http://local-hanmeng.com">汉盟地产</a>
+                <a target="_blank" class="margin btn btn-sm bg-blue" href="http://local-shengbei.com">盛贝地产</a>
+                <a target="_blank" class="margin btn btn-sm bg-blue" href="http://local-jjmax.com">JJ-MAX</a>
+            </div>
+
         </div>
         <!-- END PORTLET-->
     </div>
