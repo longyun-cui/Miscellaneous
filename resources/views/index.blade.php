@@ -54,23 +54,16 @@
 
             <div class="box-body">
                 <a target="_blank" class="margin btn btn-sm bg-success" href="http://tinyline.cn">时间线 tinyline.cn</a>
-                <a target="_blank" class="margin btn btn-sm bg-success" href="http://longyun8.win">时间线 longyun8.win</a>
 
                 <a target="_blank" class="margin btn btn-sm btn-warning" href="http://softdoc.cn">课栈三人行 softdoc.cn</a>
-                <a target="_blank" class="margin btn btn-sm btn-warning" href="http://cuilongyun.pub">课栈三人行 cuilongyun.pub</a>
-                <a target="_blank" class="margin btn btn-sm btn-warning" href="http://cuilongyun.date">课栈三人行 cuilongyun.date</a>
 
                 <a target="_blank" class="margin btn btn-sm btn-info" href="http://topicbus.cn">话题社 topicbus.cn</a>
-                <a target="_blank" class="margin btn btn-sm btn-info" href="http://qingbo.date">话题社 qingbo.date</a>
 
                 <a target="_blank" class="margin btn btn-sm bg-info" href="http://you2.pub">树洞 you2.pub</a>
 
                 <a target="_blank" class="margin btn btn-sm btn-success" href="http://softpub.cn">作者与作品 softpub.cn</a>
-                <a target="_blank" class="margin btn btn-sm btn-success" href="http://longyun88.win">作者与作品 longyun88.win</a>
 
                 <a target="_blank" class="margin btn btn-sm btn-danger" href="http://softrow.cn">图表站 softrow.cn</a>
-                <a target="_blank" class="margin btn btn-sm btn-danger" href="http://longyun.date">图表站 longyun.date</a>
-                <a target="_blank" class="margin btn btn-sm btn-danger" href="http://longyun.pub">图表站 longyun.pub</a>
             </div>
 
             <div class="box-body">
@@ -153,7 +146,8 @@
             </div>
 
             <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm btn-success" href="https://mp.weixin.qq.com/">微信公众平台</a>
+                <a target="_blank" class="margin btn btn-sm btn-success" href="https://open.weixin.qq.com/">微信·开放平台</a>
+                <a target="_blank" class="margin btn btn-sm btn-success" href="https://mp.weixin.qq.com/">微信·公众平台</a>
                 <a target="_blank" class="margin btn btn-sm btn-success" href="https://mp.weixin.qq.com/debug/wxadoc/dev/">微信小程序开发文档</a>
                 <a target="_blank" class="margin btn btn-sm btn-success" href="https://exmail.qq.com/cgi-bin/loginpage">腾讯企业邮箱</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://mail.163.com/">网易邮箱</a>
