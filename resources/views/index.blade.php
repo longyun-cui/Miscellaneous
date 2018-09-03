@@ -148,7 +148,9 @@
             <div class="box-body">
                 <a target="_blank" class="margin btn btn-sm btn-success" href="https://open.weixin.qq.com/">微信·开放平台</a>
                 <a target="_blank" class="margin btn btn-sm btn-success" href="https://mp.weixin.qq.com/">微信·公众平台</a>
-                <a target="_blank" class="margin btn btn-sm btn-success" href="https://mp.weixin.qq.com/debug/wxadoc/dev/">微信小程序开发文档</a>
+                <a target="_blank" class="margin btn btn-sm btn-success" href="https://mp.weixin.qq.com/wiki?t=resource/res_main">微信·公众号·开发文档</a>
+                <a target="_blank" class="margin btn btn-sm btn-success" href="https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list">微信·开放平台·开发文档</a>
+                <a target="_blank" class="margin btn btn-sm btn-success" href="https://mp.weixin.qq.com/debug/wxadoc/dev/">微信·小程序·开发文档</a>
                 <a target="_blank" class="margin btn btn-sm btn-success" href="https://exmail.qq.com/cgi-bin/loginpage">腾讯企业邮箱</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://mail.163.com/">网易邮箱</a>
             </div>
