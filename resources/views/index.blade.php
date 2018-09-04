@@ -44,25 +44,42 @@
             </div>
 
             <div class="box-header with-border">
-                <h3 class="box-title">LY.Product</h3>
+                <h3 class="box-title"><b>LY.Tools</b></h3>
             </div>
 
             <div class="box-body">
                 <a target="_blank" class="margin btn btn-sm btn-primary" href="http://live2.pub:8088/">邮件服务器 live2.pub:8088</a>
                 <a target="_blank" class="margin btn btn-sm btn-primary" href="http://cuilongyun.win:8088/">邮件服务器 cuilongyun.win:8088</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://116.62.214.223/public/ppma/index.php">HZ-phpMyAdmin</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://47.52.149.252/phpMyAdmin/">HK-phpMyAdmin</a>
+                <a target="_blank" class="margin btn btn-sm bg-black" href="https://ecs.console.aliyun.com/#/server/region/cn-hangzhou">ECS-HZ</a>
+                <a target="_blank" class="margin btn btn-sm bg-black" href="https://ecs.console.aliyun.com/#/server/region/cn-hongkong">ECS-HK</a>
+                <a target="_blank" class="margin btn btn-sm bg-black" href="https://netcn.console.aliyun.com/core/domain/list">阿里域名</a>
+                <a target="_blank" class="margin btn btn-sm bg-black" href="https://dysms.console.aliyun.com/dysms.htm">阿里短信</a>
+                <a target="_blank" class="margin btn btn-sm bg-black" href="https://market.aliyun.com/developer">阿里云·开发者工具</a>
+                <a target="_blank" class="margin btn btn-sm bg-black" href="https://qiye.aliyun.com/">阿里企业邮箱</a>
             </div>
 
             <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm bg-success" href="http://tinyline.cn">时间线 tinyline.cn</a>
+                <a target="_blank" class="margin btn btn-sm btn-success" href="https://open.weixin.qq.com/">微信·开放平台</a>
+                <a target="_blank" class="margin btn btn-sm btn-success" href="https://mp.weixin.qq.com/">微信·公众平台</a>
+                <a target="_blank" class="margin btn btn-sm btn-success" href="https://mp.weixin.qq.com/wiki?t=resource/res_main">微信·公众号·开发文档</a>
+                <a target="_blank" class="margin btn btn-sm btn-success" href="https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list">微信·开放平台·开发文档</a>
+                <a target="_blank" class="margin btn btn-sm btn-success" href="https://mp.weixin.qq.com/debug/wxadoc/dev/">微信·小程序·开发文档</a>
+                <a target="_blank" class="margin btn btn-sm btn-success" href="https://exmail.qq.com/cgi-bin/loginpage">腾讯企业邮箱</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://mail.163.com/">网易邮箱</a>
+            </div>
 
-                <a target="_blank" class="margin btn btn-sm btn-warning" href="http://softdoc.cn">课栈三人行 softdoc.cn</a>
+            <div class="box-header with-border">
+                <h3 class="box-title"><b>LY.Product</b></h3>
+            </div>
 
-                <a target="_blank" class="margin btn btn-sm btn-info" href="http://topicbus.cn">话题社 topicbus.cn</a>
-
-                <a target="_blank" class="margin btn btn-sm bg-info" href="http://you2.pub">树洞 you2.pub</a>
-
-                <a target="_blank" class="margin btn btn-sm btn-success" href="http://softpub.cn">作者与作品 softpub.cn</a>
-
+            <div class="box-body">
+                <a target="_blank" class="margin btn btn-sm btn-danger" href="http://tinyline.cn">时间线 tinyline.cn</a>
+                <a target="_blank" class="margin btn btn-sm btn-danger" href="http://softdoc.cn">课栈三人行 softdoc.cn</a>
+                <a target="_blank" class="margin btn btn-sm btn-danger" href="http://topicbus.cn">话题社 topicbus.cn</a>
+                <a target="_blank" class="margin btn btn-sm btn-danger" href="http://you2.pub">树洞 you2.pub</a>
+                <a target="_blank" class="margin btn btn-sm btn-danger" href="http://softpub.cn">作者与作品 softpub.cn</a>
                 <a target="_blank" class="margin btn btn-sm btn-danger" href="http://softrow.cn">图表站 softrow.cn</a>
             </div>
 
@@ -92,24 +109,17 @@
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo.date:8088/admin">作品</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo8.cn:8088/Program/divuncate">divuncate</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo8.cn:8088/Program/relation_init">relation_init</a>
-            </div>
-
-            <div class="box-body">
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo8.cn:8088/test">qingbo.test</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo8.cn:8088/testLearning">qingbo.testLearning</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo8.cn:8088/testLaravel">qingbo.testLaravel</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo8.cn:8088/testProgram">qingbo.testProgram</a>
             </div>
 
-            <div class="box-header with-border">
-                <h3 class="box-title">LY.Product</h3>
-            </div>
-
             <div class="box-body">
                 <a target="_blank" class="margin btn btn-sm bg-blue" href="http://juafc.com">汉盟地产</a>
                 <a target="_blank" class="margin btn btn-sm bg-blue" href="http://shxmyj.com">盛贝地产</a>
                 <a target="_blank" class="margin btn btn-sm bg-blue" href="http://tinymax.cn">JJ-MAX</a>
-                <a target="_blank" class="margin btn btn-sm bg-blue" href="http://tinymin.cn">Keron</a>
+                <a target="_blank" class="margin btn btn-sm bg-blue" href="http://keron-relo.com">Keron</a>
             </div>
 
             <div class="box-body">
@@ -132,27 +142,6 @@
 
             <div class="box-header with-border" style="margin:4px 0 16px">
                 <h3 class="box-title">Developing</h3>
-            </div>
-
-            <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://ecs.console.aliyun.com/#/server/region/cn-hangzhou">ECS-HZ</a>
-                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://ecs.console.aliyun.com/#/server/region/cn-hongkong">ECS-HK</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://116.62.214.223/public/ppma/index.php">HZ-phpMyAdmin</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://47.52.149.252/phpMyAdmin/">HK-phpMyAdmin</a>
-                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://netcn.console.aliyun.com/core/domain/list">阿里域名</a>
-                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://dysms.console.aliyun.com/dysms.htm">阿里短信</a>
-                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://market.aliyun.com/developer">阿里云开发者工具</a>
-                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://qiye.aliyun.com/">阿里企业邮箱</a>
-            </div>
-
-            <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm btn-success" href="https://open.weixin.qq.com/">微信·开放平台</a>
-                <a target="_blank" class="margin btn btn-sm btn-success" href="https://mp.weixin.qq.com/">微信·公众平台</a>
-                <a target="_blank" class="margin btn btn-sm btn-success" href="https://mp.weixin.qq.com/wiki?t=resource/res_main">微信·公众号·开发文档</a>
-                <a target="_blank" class="margin btn btn-sm btn-success" href="https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list">微信·开放平台·开发文档</a>
-                <a target="_blank" class="margin btn btn-sm btn-success" href="https://mp.weixin.qq.com/debug/wxadoc/dev/">微信·小程序·开发文档</a>
-                <a target="_blank" class="margin btn btn-sm btn-success" href="https://exmail.qq.com/cgi-bin/loginpage">腾讯企业邮箱</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://mail.163.com/">网易邮箱</a>
             </div>
 
 
@@ -182,7 +171,6 @@
             <div class="box-body">
                 <a target="_blank" class="margin btn btn-sm btn-danger" href="https://laravel.com/docs/5.5">Docs5.5(English)</a>
                 <a target="_blank" class="margin btn btn-sm btn-primary" href="http://d.laravel-china.org/docs/5.5">Docs5.5</a>
-                <a target="_blank" class="margin btn btn-sm btn-primary" href="http://d.laravel-china.org/docs/5.4">Docs5.4</a>
                 <a target="_blank" class="margin btn btn-sm btn-primary" href="http://d.laravel-china.org/docs/5.1">Docs5.1</a>
                 <a target="_blank" class="margin btn btn-sm bg-olive" href="http://laravelacademy.org/post/153.html">Laravel 精选资源大全</a>
                 <a target="_blank" class="margin btn btn-sm bg-olive" href="http://laravelacademy.org/post/205.html">Laravel 帮助函数</a>
