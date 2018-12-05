@@ -50,6 +50,7 @@
             <div class="box-body">
                 <a target="_blank" class="margin btn btn-sm btn-primary" href="http://live2.pub:8088/">邮件服务器 live2.pub:8088</a>
                 <a target="_blank" class="margin btn btn-sm btn-primary" href="http://cuilongyun.win:8088/">邮件服务器 cuilongyun.win:8088</a>
+                <a target="_blank" class="margin btn btn-sm bg-black" href="https://beian.aliyun.com/order/index.htm">阿里备案</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://116.62.214.223/public/ppma/index.php">HZ-phpMyAdmin</a>
                 <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://47.52.149.252/phpMyAdmin/">HK-phpMyAdmin</a>
                 <a target="_blank" class="margin btn btn-sm bg-black" href="https://ecs.console.aliyun.com/#/server/region/cn-hangzhou">ECS-HZ</a>
