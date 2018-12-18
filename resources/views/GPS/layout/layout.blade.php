@@ -265,22 +265,16 @@ desired effect
             <ul class="sidebar-menu">
                 <li class="header">HEADER</li>
                 <!-- Optionally, you can add icons to the links -->
-                <li class="treeview">
+                <li class="treeview active">
                     <a href=""><i class="fa fa-th"></i> <span>GPS</span>
                         <span class="pull-right-container">
                             <i class="fa fa-angle-left pull-right"></i>
                         </span>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="{{url('/index')}}"><i class="fa fa-circle-o text-blue"></i>Navigation</a></li>
-                        <li><a href="{{url('/tools')}}"><i class="fa fa-circle-o text-blue"></i>Tools</a></li>
+                        <li><a href="{{ url('/gps/navigation') }}"><i class="fa fa-circle-o text-blue"></i>Navigation</a></li>
+                        <li><a href="{{ url('/gps/tools') }}"><i class="fa fa-circle-o text-blue"></i>Tools</a></li>
                     </ul>
-                </li>
-                <li class="active">
-                    <a href="/index"><i class="fa fa-circle-o text-red"></i> <span>Navigation</span></a>
-                </li>
-                <li>
-                    <a href="/tools"><i class="fa fa-circle-o text-red"></i> <span>Tools</span></a>
                 </li>
                 <li>
                     <a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a>

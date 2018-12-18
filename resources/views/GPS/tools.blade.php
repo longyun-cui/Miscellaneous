@@ -1,4 +1,4 @@
-@extends('layout.layout')
+@extends('GPS.layout.layout')
 
 @section('title','工具')
 @section('header','工具')
@@ -27,7 +27,7 @@
             </div>
 
             <div action="" class="form-horizontal form-bordered">
-                <div class="box-header with-border">
+                <div class="box-header with-border" style="display:none;">
                 </div>
                 <div class="box-body">
                     {{--密码--}}
@@ -53,9 +53,7 @@
                 </div>
             </div>
 
-            <div class="box-footer">
-                <div class="row">
-                </div>
+            <div class="box-footer" style="display:none;">
             </div>
         </div>
         <!-- END PORTLET-->
@@ -99,9 +97,10 @@
 @section('js')
 <script>
     $(function() {
-        // 修改幻灯片信息
+
+        // 生成密码
         $("#tool-password-encode-submit").on('click', function() {
-            var url = '/test/tool';
+            var url = '/gps/tool';
             $.post(
                 url,
                 {
@@ -118,6 +117,7 @@
                     }
             }, 'json');
         });
+
     });
 </script>
 @endsection

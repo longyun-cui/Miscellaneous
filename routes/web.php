@@ -12,26 +12,73 @@
 */
 
 Route::get('/', function () {
-//    return view('welcome');
-    return view('index');
+    return view('welcome');
 });
 
 
-Route::get('/index', function () {
-    return view('index');
+
+
+/*
+ * GPS
+ */
+Route::group(['prefix' => 'gps'], function () {
+
+    $controller = "GPSController";
+
+    //
+    Route::match(['get','post'], '/navigation',$controller.'@navigation');
+    Route::match(['get','post'], '/tools',$controller.'@tools');
+
+    Route::match(['get','post'], '/tool',$controller.'@tool');
+
 });
 
 
-Route::get('/tools', function () {
-    return view('tools');
+
+
+/*
+ * 测试
+ */
+Route::group(['prefix' => 'developing'], function () {
+
+    $controller = "DevelopingController";
+
+    //
+    Route::match(['get','post'], '/navigation',$controller.'@navigation');
+    Route::match(['get','post'], '/tool',$controller.'@tool');
+
 });
 
 
-Route::match(['get','post'], '/test/tool','TestController@tool');
 
 
-Route::match(['get','post'], '/email/send','MailController@send');
-//Route::match(['get','post'], '/email/test','MailController@test');
+/*
+ * 测试
+ */
+Route::group(['prefix' => 'test'], function () {
+
+    $controller = "TestController";
+
+    //
+    Route::match(['get','post'], '/tool',$controller.'@tool');
+
+});
+
+
+
+
+/*
+ * 发邮件
+ */
+Route::group(['prefix' => 'email'], function () {
+
+    $controller = "TestController";
+
+    //
+//    Route::match(['get','post'], '/test',$controller.'@test');
+    Route::match(['get','post'], '/send',$controller.'@send');
+});
+
 
 
 

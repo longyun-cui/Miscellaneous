@@ -1,4 +1,4 @@
-@extends('layout.layout')
+@extends('GPS.layout.layout')
 
 @section('title','导航')
 @section('header','导航')
