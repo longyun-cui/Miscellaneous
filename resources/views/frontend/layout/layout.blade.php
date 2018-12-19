@@ -121,8 +121,6 @@
         <script>
             $(function() {
 
-
-
                 $("#bottom-bm-close").on('click', function () {
                     $('#bottom-bm-container').slideUp();
                 });

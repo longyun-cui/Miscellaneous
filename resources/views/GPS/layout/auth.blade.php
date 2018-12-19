@@ -35,29 +35,13 @@ scratch. This page gets rid of all links and provides the needed markup only.
     {{--<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>--}}
     {{--<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>--}}
     {{--<![endif]-->--}}
-    {{--<link href="https://cdn.bootcss.com/bootstrap-modal/2.2.6/css/bootstrap-modal.min.css" rel="stylesheet">--}}
+    <link href="https://cdn.bootcss.com/bootstrap-modal/2.2.6/css/bootstrap-modal.min.css" rel="stylesheet">
 
-    <link href="https://cdn.bootcss.com/bootstrap-fileinput/4.4.8/css/fileinput.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('common/css/component/fileinput.css') }}" media="all" />
+    <link href="https://cdn.bootcss.com/bootstrap-fileinput/4.4.3/css/fileinput.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="{{asset('AdminLTE/plugins/datatables/dataTables.bootstrap.css')}}">
 
     <link href="https://cdn.bootcss.com/iCheck/1.0.2/skins/all.css" rel="stylesheet">
-
-    <link href="https://cdn.bootcss.com/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
-
-    <link href="https://cdn.bootcss.com/bootstrap-switch/3.3.4/css/bootstrap3/bootstrap-switch.min.css" rel="stylesheet">
-
-    <link href="https://cdn.bootcss.com/Swiper/4.2.2/css/swiper.min.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="{{ asset('common/css/common.css') }}" media="all" />
-    <link rel="stylesheet" href="{{ asset('common/css/frontend/index.css') }}" media="all" />
-    <link rel="stylesheet" href="{{ asset('common/css/backend/index.css') }}" media="all" />
-
-    <link rel="stylesheet" href="{{asset('css/common.css')}}">
-    <link rel="stylesheet" href="{{asset('css/admin/index.css')}}">
-
-    @yield('style')
 
 </head>
 <!--
@@ -80,27 +64,8 @@ desired effect
 |               | sidebar-mini                            |
 |---------------------------------------------------------|
 -->
-<body class="hold-transition skin-blue sidebar-mini">
-<div class="wrapper">
-
-
-    {{--main-header--}}
-    @include('GPS.component.main-header')
-
-    {{--main-sidebar--}}
-    @include('GPS.component.main-sidebar')
-
-    {{--main-content--}}
-    @include('GPS.component.main-content')
-
-    {{--main-footer--}}
-    @include('GPS.component.main-footer')
-
-    {{--control-sidebar--}}
-    @include('GPS.component.control-sidebar')
-
-
-</div>
+<body class="hold-transition login-page">
+@yield('content')
 <!-- ./wrapper -->
 
 <!-- REQUIRED JS SCRIPTS -->
@@ -112,38 +77,18 @@ desired effect
 {{--<!-- AdminLTE App -->--}}
 <script src="/AdminLTE/dist/js/app.min.js"></script>
 
-<script src="https://cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.js"></script>
-
-{{--<script src="https://cdn.bootcss.com/bootstrap-modal/2.2.6/js/bootstrap-modal.min.js"></script>--}}
+<script src="https://cdn.bootcss.com/bootstrap-modal/2.2.6/js/bootstrap-modal.min.js"></script>
 
 <script src="https://cdn.bootcss.com/layer/3.0.3/layer.min.js"></script>
 
-<script src="https://cdn.bootcss.com/bootstrap-fileinput/4.4.8/js/fileinput.min.js"></script>
-<script src="{{ asset('common/js/component/fileinput-only.js') }}"></script>
+<script src="https://cdn.bootcss.com/bootstrap-fileinput/4.4.3/js/fileinput.min.js"></script>
 
 <script src="https://cdn.bootcss.com/jquery.form/4.2.2/jquery.form.min.js"></script>
-
-<script src="https://cdn.bootcss.com/moment.js/2.19.0/moment.min.js"></script>
 
 <script src="{{asset('AdminLTE/plugins/datatables/jquery.dataTables.min.js')}}"></script>
 <script src="{{asset('AdminLTE/plugins/datatables/dataTables.bootstrap.min.js')}}"></script>
 
 <script src="https://cdn.bootcss.com/iCheck/1.0.2/icheck.min.js"></script>
-
-<script src="https://cdn.bootcss.com/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
-
-<script src="https://cdn.bootcss.com/bootstrap-switch/3.3.4/js/bootstrap-switch.min.js"></script>
-
-<script src="https://cdn.bootcss.com/Swiper/4.2.2/js/swiper.min.js"></script>
-
-<script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
-
-<script>
-
-</script>
-
-
-<script src="{{asset('js/admin/index.js')}}"></script>
 
 @yield('js')
 

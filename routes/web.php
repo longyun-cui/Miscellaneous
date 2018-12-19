@@ -28,6 +28,8 @@ Route::group(['prefix' => 'gps'], function () {
     //
     Route::match(['get','post'], '/navigation',$controller.'@navigation');
     Route::match(['get','post'], '/tools',$controller.'@tools');
+    Route::match(['get','post'], '/templates',$controller.'@templates');
+    Route::match(['get','post'], '/testing',$controller.'@testing');
 
     Route::match(['get','post'], '/tool',$controller.'@tool');
 
@@ -37,15 +39,14 @@ Route::group(['prefix' => 'gps'], function () {
 
 
 /*
- * 测试
+ * 开发中
  */
 Route::group(['prefix' => 'developing'], function () {
 
     $controller = "DevelopingController";
 
     //
-    Route::match(['get','post'], '/navigation',$controller.'@navigation');
-    Route::match(['get','post'], '/tool',$controller.'@tool');
+    Route::get('/', $controller.'@view_root');
 
 });
 
@@ -60,7 +61,6 @@ Route::group(['prefix' => 'test'], function () {
     $controller = "TestController";
 
     //
-    Route::match(['get','post'], '/tool',$controller.'@tool');
 
 });
 

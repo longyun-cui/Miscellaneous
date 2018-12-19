@@ -9,8 +9,6 @@
 
 
 @section('content')
-
-{{--Qingbo8--}}
 <div class="row">
     <div class="col-md-12">
         <!-- BEGIN PORTLET-->
@@ -89,8 +87,6 @@
         <!-- END PORTLET-->
     </div>
 </div>
-
-
 @endsection
 
 
@@ -121,12 +117,3 @@
     });
 </script>
 @endsection
-
-
-
-
-
-
-
-
-

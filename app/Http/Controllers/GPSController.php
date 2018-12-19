@@ -19,14 +19,25 @@ class GPSController extends Controller
     // 导航
     public function navigation()
     {
-        return view('GPS.navigation');
+        return view('GPS.entrance.navigation');
     }
-
 
     // 工具
     public function tools()
     {
-        return view('GPS.tools');
+        return view('GPS.entrance.tools');
+    }
+
+    // 模板
+    public function templates()
+    {
+        return view('GPS.entrance.templates');
+    }
+
+    // 测试
+    public function testing()
+    {
+        return view('GPS.entrance.testing');
     }
 
 
