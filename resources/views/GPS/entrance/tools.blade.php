@@ -1,6 +1,6 @@
 @extends('GPS.layout.layout')
 
-@section('title','工具')
+@section('title','GPS - 工具')
 @section('header','工具')
 @section('description','工具')
 @section('breadcrumb')

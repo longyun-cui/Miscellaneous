@@ -27,14 +27,14 @@ class DevelopingRepository {
 //        $info = json_decode(json_encode(config('mitong.company.info')));
 //        $menus = RootMenu::where(['active'=>1])->orderby('order', 'asc')->get();
 
-        $items = RootItem::where(['category'=>11, 'active'=>1])->orderby('id', 'desc')->limit(4)->get();
+        $items = RootItem::where(['category'=>11, 'active'=>1])->orderby('id', 'desc')->limit(8)->get();
         foreach($items as $item)
         {
             $item->custom = json_decode($item->custom);
         }
 
 
-        $html = view('frontend.entrance.developing')->with(['items'=>$items])->__toString();
+        $html = view('library.entrance.developing')->with(['items'=>$items])->__toString();
         return $html;
     }
 

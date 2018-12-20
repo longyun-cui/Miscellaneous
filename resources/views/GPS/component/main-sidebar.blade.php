@@ -55,6 +55,12 @@
             <li class="header">Developing</li>
 
             <li class="treeview">
+                <a target="_blank" href="{{ url('/admin') }}">
+                    <i class="fa fa-cube text-red"></i><span>Admin</span>
+                </a>
+            </li>
+
+            <li class="treeview">
                 <a target="_blank" href="{{ url('/developing') }}">
                     <i class="fa fa-cube text-red"></i><span>Developing</span>
                 </a>

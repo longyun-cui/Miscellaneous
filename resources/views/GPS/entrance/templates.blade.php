@@ -1,6 +1,6 @@
 @extends('GPS.layout.layout')
 
-@section('title','模板')
+@section('head_title','GPS - 模板')
 @section('header','模板')
 @section('description','模板')
 @section('breadcrumb')
@@ -24,6 +24,9 @@
                 </a>
             </div>
 
+            <div class="box-footer">
+            </div>
+
         </div>
         <!-- END PORTLET-->
     </div>
@@ -36,6 +39,18 @@
 
             <div class="box-header with-border">
                 <h3 class="box-title"><b>Jiaoben</b></h3>
+            </div>
+
+            <div class="box-body">
+                <a target="_blank" class="margin btn btn-sm btn-primary" href="{{ url('/template-library/jiaoben1967/') }}">
+                    jiaoben1967 - CSS3悬停特效合集Hover.css
+                </a>
+                <a target="_blank" class="margin btn btn-sm btn-primary" href="{{ url('/template-library/jiaoben1597/') }}">
+                    jiaoben1597 - jQuery动画标签折叠式菜单
+                </a>
+            </div>
+
+            <div class="box-footer">
             </div>
 
         </div>
