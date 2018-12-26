@@ -53,15 +53,12 @@ Route::group(['prefix' => 'developing'], function () {
 
 
 
+
 /*
- * 测试
+ * TEST 测试
  */
-Route::group(['prefix' => 'test'], function () {
-
-    $controller = "TestController";
-
-    //
-
+Route::group(['prefix' => 'test', 'namespace' => 'Test'], function () {
+    require(__DIR__ . '/Test/route.php');
 });
 
 

@@ -1,6 +1,6 @@
 @extends('GPS.layout.layout')
 
-@section('title','GPS - 导航')
+@section('head_title','GPS - 导航')
 @section('header','导航')
 @section('description','导航')
 @section('breadcrumb')

@@ -46,6 +46,8 @@
 
         @include('frontend.module.root-qrcode')
 
+        @include('library.module.root-client-1')
+
     </div>
 
 @endsection

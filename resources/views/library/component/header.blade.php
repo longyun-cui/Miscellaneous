@@ -67,9 +67,8 @@
                 <ul class="nav-bar">
 
                     <li><a href="{{ url('/') }}">首页</a></li>
-                    <li><a href="{{ url('/rent-out/list') }}">租琴</a></li>
-                    <li><a href="{{ url('/second-wholesale/list') }}">二手批发</a></li>
-                    <li><a href="{{ url('/recycle/page') }}">钢琴回收</a></li>
+                    <li><a href="{{ url('/product/list') }}">产品服务</a></li>
+                    <li><a href="{{ url('/template/list') }}">模板展示</a></li>
                     <li><a href="{{ url('/coverage/list') }}">资讯动态</a></li>
                     <li><a href="{{ url('/contact') }}">联系我们</a></li>
 
@@ -84,13 +83,13 @@
                         {{--</div>--}}
                     {{--</li>--}}
 
-                    <li class="header-taobao" role="button">
-                        <a href="https://shop62683376.taobao.com" style="color:#f40;">
-                            <i class="fa fa-taobao"></i> <b>淘宝店铺</b>
+                    <li class="header-box header-taobao taobao-box" role="button">
+                        <a href="https://shop62683376.taobao.com">
+                            <i class="icon"><img src="/common/images/icons/icon_taobao_1.png" alt=""></i> <b>淘宝店铺</b>
                         </a>
                     </li>
 
-                    <li class="header-wechat wechat-box" role="button">
+                    <li class="header-box header-wechat wechat-box" role="button">
                         <a href="javascript:void(0);" rel="nofollow">
                             <i class="fa fa-weixin"></i> <b>微信公众号</b>
                         </a>
