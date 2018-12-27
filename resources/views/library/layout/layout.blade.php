@@ -20,8 +20,20 @@
         <!-- favicon and touch icons -->
         <link rel="shortcut icon" type="image/ico" href="{{ url('favicon.ico') }}">
         <link rel="shortcut icon" type="image/png" href="{{ url('favicon.png') }}">
-        <link rel="icon" sizes="16x16 32x32 64x64" href="{{ url('favicon.ico') }}">
-        <link rel="icon" type="image/png" sizes="196x196" href="{{ url('favicon.png') }}">
+
+        <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
+        <link rel="icon" sizes="any" mask href="/favicon-64.png">
+
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-64.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-64.png">
+        <link rel="icon" type="image/png" sizes="196x196" href="/favicon-64.png">
+
+        <link rel="apple-touch-icon" sizes="60x60" href="/favicon-64.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/favicon-64.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/favicon-64.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/favicon-64.png">
+        <link rel="apple-touch-icon" sizes="160x160" href="/favicon-64.png">
+        <link rel="apple-touch-icon" sizes="192x192" href="/favicon-64.png">
 
 
         <!-- Bootstrap -->
@@ -55,12 +67,12 @@
             {{--})();--}}
         {{--</script>--}}
 
-        <script>
-            (function(b,a,e,h,f,c,g,s){b[h]=b[h]||function(){(b[h].c=b[h].c||[]).push(arguments)};
-                b[h].s=!!c;g=a.getElementsByTagName(e)[0];s=a.createElement(e);
-                s.src="//s.union.360.cn/"+f+".js";s.defer=!0;s.async=!0;g.parentNode.insertBefore(s,g)
-            })(window,document,"script","_qha",271423,false);
-        </script>
+        {{--<script>--}}
+            {{--(function(b,a,e,h,f,c,g,s){b[h]=b[h]||function(){(b[h].c=b[h].c||[]).push(arguments)};--}}
+                {{--b[h].s=!!c;g=a.getElementsByTagName(e)[0];s=a.createElement(e);--}}
+                {{--s.src="//s.union.360.cn/"+f+".js";s.defer=!0;s.async=!0;g.parentNode.insertBefore(s,g)--}}
+            {{--})(window,document,"script","_qha",271423,false);--}}
+        {{--</script>--}}
 
     </head>
     <body class="">

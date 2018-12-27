@@ -35,7 +35,8 @@ class ItemRepository {
         else if($category == "about") $query->where('category', 2);
         else if($category == "advantage") $query->where('category', 5);
         else if($category == "cooperation") $query->where('category', 9);
-        else if($category == "product") $query->where('category', 11);
+        else if($category == "service") $query->where('category', 11);
+        else if($category == "product") $query->where('category', 12);
         else if($category == "case") $query->where('category', 21);
         else if($category == "faq") $query->where('category', 31);
         else if($category == "coverage") $query->where('category', 41);
@@ -84,7 +85,9 @@ class ItemRepository {
         $category = request("category",'');
 
         $query = RootMenu::select("*");
-        if($category == 'product') $query->where('category',11);
+        if($category == 'service') $query->where('category',11);
+        elseif($category == 'product') $query->where('category',12);
+        elseif($category == 'faq') $query->where('category',31);
         elseif($category == 'coverage') $query->where('category',41);
         $menus = $query->get();
 
@@ -92,6 +95,7 @@ class ItemRepository {
         elseif($category == 'about') $view_blade = 'admin.item.edit-about';
         elseif($category == 'advantage') $view_blade = 'admin.item.edit-advantage';
         elseif($category == 'cooperation') $view_blade = 'admin.item.edit-cooperation';
+        elseif($category == 'service') $view_blade = 'admin.item.edit-service';
         elseif($category == 'product') $view_blade = 'admin.item.edit-product';
         elseif($category == 'case') $view_blade = 'admin.item.edit-case';
         elseif($category == 'faq') $view_blade = 'admin.item.edit-faq';
@@ -129,6 +133,8 @@ class ItemRepository {
 
                 $query = RootMenu::select("*");
                 if($category == 11) $query->where('category',11);
+                elseif($category == 12) $query->where('category',12);
+                elseif($category == 31) $query->where('category',31);
                 elseif($category == 41) $query->where('category',41);
                 $menus = $query->get();
 
@@ -136,7 +142,8 @@ class ItemRepository {
                 elseif($category == '2') $view_blade = 'admin.item.edit-about';
                 elseif($category == '5') $view_blade = 'admin.item.edit-advantage';
                 elseif($category == '9') $view_blade = 'admin.item.edit-cooperation';
-                elseif($category == '11') $view_blade = 'admin.item.edit-product';
+                elseif($category == '11') $view_blade = 'admin.item.edit-service';
+                elseif($category == '12') $view_blade = 'admin.item.edit-product';
                 elseif($category == '21') $view_blade = 'admin.item.edit-case';
                 elseif($category == '31') $view_blade = 'admin.item.edit-faq';
                 elseif($category == '41') $view_blade = 'admin.item.edit-coverage';

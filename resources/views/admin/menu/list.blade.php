@@ -150,7 +150,8 @@
                             else if(data == 2) return '<small class="label btn-info">关于企业</small>';
                             else if(data == 5) return '<small class="label btn-info">选择我们</small>';
                             else if(data == 9) return '<small class="label bg-maroon">合作伙伴</small>';
-                            else if(data == 11) return '<small class="label bg-primary">产品模块</small>';
+                            else if(data == 11) return '<small class="label bg-primary">业务模块</small>';
+                            else if(data == 12) return '<small class="label bg-olive">产品模块</small>';
                             else if(data == 21) return '<small class="label bg-orange">案例模块</small>';
                             else if(data == 31) return '<small class="label bg-olive">常见问题模块</small>';
                             else if(data == 41) return '<small class="label bg-olive">资讯模块</small>';

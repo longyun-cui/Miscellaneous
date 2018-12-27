@@ -141,6 +141,9 @@
                     <li class="@if(!empty($category) && $category == 'cooperation') active @endif">
                         <a href="{{ url('/admin/item/list?category=cooperation') }}"><i class="fa fa-circle-o"></i> 合作加盟模块</a>
                     </li>
+                    <li class="@if(!empty($category) && $category == 'service') active @endif">
+                        <a href="{{ url('/admin/item/list?category=service') }}"><i class="fa fa-circle-o"></i> 业务模块</a>
+                    </li>
                     <li class="@if(!empty($category) && $category == 'product') active @endif">
                         <a href="{{ url('/admin/item/list?category=product') }}"><i class="fa fa-circle-o"></i> 产品模块</a>
                     </li>

@@ -35,7 +35,8 @@ class MenuRepository {
         else if($category == "about") $query->where('category', 2);
         else if($category == "advantage") $query->where('category', 5);
         else if($category == "cooperation") $query->where('category', 9);
-        else if($category == "product") $query->where('category', 11);
+        else if($category == "service") $query->where('category', 11);
+        else if($category == "product") $query->where('category', 12);
         else if($category == "case") $query->where('category', 21);
         else if($category == "faq") $query->where('category', 31);
         else if($category == "coverage") $query->where('category', 41);

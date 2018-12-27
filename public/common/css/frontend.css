@@ -49,8 +49,8 @@
 .header-site { position:relative; height:32px; float:left; }
 
 .logo-site { height:32px; float:left; }
-.logo-site a { height:100%; line-height: 32px; color:#444; font-size:18px; float:left; }
-.logo-site img { width:auto; height:100%; float:left; }
+.logo-site a { height:100%; line-height: 32px; color:#444; font-size:16px; float:left; }
+.logo-site img { width:auto; height:100%; margin-right:4px; float:left; }
 
 
 
@@ -116,7 +116,7 @@
 .nav-site { position:relative; height:100%; }
 .nav-site ul { position:relative; height:100%; list-style: none; }
 .nav-site ul li { position:relative; height:100%; padding:0 8px; margin:0 2px; cursor:pointer; }
-.nav-site ul li a { width:auto; height:100%; line-height:32px; color:#666; font-size:14px; font-weight:bold; float:left; }
+.nav-site ul li a { width:auto; height:100%; line-height:32px; color:#444; font-size:14px; font-weight:bold; float:left; }
 .nav-site ul li:hover { border-bottom:2px solid #ddd; }
 
 .nav-bar { padding:0; margin:0; float:right; }

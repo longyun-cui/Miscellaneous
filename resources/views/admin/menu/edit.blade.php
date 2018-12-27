@@ -57,7 +57,16 @@
                                 <div class="radio">
                                     <label>
                                         <input type="radio" name="category" value="11"
-                                               @if($operate == 'edit' && $data->category == 11) checked="checked" @endif> 产品模块
+                                               @if($operate == 'edit' && $data->category == 11) checked="checked" @endif> 业务模块
+                                    </label>
+                                </div>
+                            </button>
+
+                            <button type="button" class="btn">
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="category" value="12"
+                                               @if($operate == 'edit' && $data->category == 12) checked="checked" @endif> 产品模块
                                     </label>
                                 </div>
                             </button>

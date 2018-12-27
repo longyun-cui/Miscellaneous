@@ -22,6 +22,7 @@
                     @elseif($category == 'cooperation') 合作加盟列表
                     @elseif($category == 'advantage') 选择我们列表
                     @elseif($category == 'cooperation') 合作加盟列表
+                    @elseif($category == 'service') 业务列表
                     @elseif($category == 'product') 产品列表
                     @elseif($category == 'case')案例列表
                     @elseif($category == 'faq') 常见问题列表
@@ -47,6 +48,10 @@
                     @elseif($category == 'cooperation')
                         <a href="{{url('/admin/item/create?category=cooperation')}}">
                             <button type="button" onclick="" class="btn btn-success pull-right"><i class="fa fa-plus"></i> 添加合作加盟</button>
+                        </a>
+                    @elseif($category == 'service')
+                        <a href="{{url('/admin/item/create?category=service')}}">
+                            <button type="button" onclick="" class="btn btn-success pull-right"><i class="fa fa-plus"></i> 添加业务</button>
                         </a>
                     @elseif($category == 'product')
                         <a href="{{url('/admin/item/create?category=product')}}">
@@ -206,7 +211,8 @@
                             else if(data == 2) return '<small class="label btn-info">关于企业</small>';
                             else if(data == 5) return '<small class="label btn-info">选择我们</small>';
                             else if(data == 9) return '<small class="label bg-maroon">合作伙伴</small>';
-                            else if(data == 11) return '<small class="label bg-primary">产品模块</small>';
+                            else if(data == 11) return '<small class="label bg-primary">业务模块</small>';
+                            else if(data == 12) return '<small class="label bg-olive">产品模块</small>';
                             else if(data == 21) return '<small class="label bg-orange">案例模块</small>';
                             else if(data == 31) return '<small class="label bg-olive">常见问题模块</small>';
                             else if(data == 41) return '<small class="label bg-olive">资讯模块</small>';

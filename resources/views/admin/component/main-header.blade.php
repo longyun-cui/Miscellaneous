@@ -57,6 +57,11 @@
                                 </a>
                             </li>
                             <li class="header">
+                                <a href="{{url('/admin/item/create?category=service')}}">
+                                    <i class="fa fa-plus text-green"></i> 添加业务
+                                </a>
+                            </li>
+                            <li class="header">
                                 <a href="{{url('/admin/item/create?category=product')}}">
                                     <i class="fa fa-plus text-green"></i> 添加产品
                                 </a>
