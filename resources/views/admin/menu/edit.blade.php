@@ -1,6 +1,6 @@
 @extends('admin.layout.layout')
 
-@section('title')
+@section('head_title')
     @if($operate == 'create') 添加目录 @else 编辑目录 @endif
 @endsection
 
@@ -181,7 +181,7 @@
 @endsection
 
 
-@section('js')
+@section('custom-script')
 <script>
     $(function() {
         // 添加or编辑

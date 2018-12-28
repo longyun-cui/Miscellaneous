@@ -78,7 +78,10 @@ class MenuRepository {
 
         $org_id = Auth::guard('admin')->user()->org_id;
 //        $query = OrgItem::select("*")->with(['admin','menus'])->where('id',$decode_id);
-        $query = RootMenu::find($decode_id)->items()->with(['admin','menus']);
+        // 单目录
+        $query = RootMenu::find($decode_id)->items()->with(['admin','menu']);
+        // 多目录
+//        $query = RootMenu::find($decode_id)->items()->with(['admin','menu','pivot_menus']);
         $total = $query->count();
 
         $draw  = isset($post_data['draw'])  ? $post_data['draw']  : 1;
@@ -102,10 +105,11 @@ class MenuRepository {
         foreach ($list as $k => $v)
         {
             $list[$k]->encode_id = encode($v->id);
-            foreach ($v->menus as $key => $val)
-            {
-                $val->encode_id = encode($val->id);
-            }
+            // 多目录
+//            foreach ($v->menus as $key => $val)
+//            {
+//                $val->encode_id = encode($val->id);
+//            }
         }
         return datatable_response($list, $draw, $total);
     }

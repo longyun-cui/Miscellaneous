@@ -1,10 +1,10 @@
 @extends('admin.layout.layout')
 
 @section('create-text') 添加产品 @endsection
-@section('edit-text') 添加产品 @endsection
+@section('edit-text') 编辑产品 @endsection
 @section('list-text') 产品列表 @endsection
 
-@section('title')
+@section('head_title')
     @if($operate == 'create') @yield('create-text') @else @yield('edit-text') @endif
 @endsection
 
@@ -132,7 +132,7 @@
                             @foreach($data->custom2 as $img)
                                 <div class="fileinput fileinput-new" data-provides="fileinput">
                                     <div class="fileinput-new thumbnail">
-                                        <img src="{{ url(config('common.host.'.env('APP_ENV').'.cdn').'/'.$img->img) }}" alt="" />
+                                        <img src="{{ url(env('DOMAIN_CDN').'/'.$img->img) }}" alt="" />
                                     </div>
                                 </div>
                             @endforeach
@@ -154,7 +154,7 @@
                         <div class="fileinput fileinput-new" data-provides="fileinput">
                             <div class="fileinput-new thumbnail">
                                 @if(!empty($data->cover_pic))
-                                    <img src="{{ url(config('common.host.'.env('APP_ENV').'.cdn').'/'.$data->cover_pic) }}" alt="" />
+                                    <img src="{{ url(env('DOMAIN_CDN').'/'.$data->cover_pic) }}" alt="" />
                                 @endif
                             </div>
                             <div class="fileinput-preview fileinput-exists thumbnail">
@@ -220,12 +220,12 @@
 @endsection
 
 
-@section('style')
+@section('custom-css')
     <link href="https://cdn.bootcss.com/select2/4.0.5/css/select2.min.css" rel="stylesheet">
 @endsection
 
 
-@section('js')
+@section('custom-script')
 <script src="https://cdn.bootcss.com/select2/4.0.5/js/select2.min.js"></script>
 <script>
     $(function() {

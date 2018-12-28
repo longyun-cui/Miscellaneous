@@ -4,7 +4,7 @@
 @section('edit-text') 添加案例 @endsection
 @section('list-text') 关于案例 @endsection
 
-@section('title')
+@section('head_title')
     @if($operate == 'create') @yield('create-text') @else @yield('edit-text') @endif
 @endsection
 
@@ -198,12 +198,12 @@
 @endsection
 
 
-@section('style')
+@section('custom-css')
     <link href="https://cdn.bootcss.com/select2/4.0.5/css/select2.min.css" rel="stylesheet">
 @endsection
 
 
-@section('js')
+@section('custom-script')
 <script src="https://cdn.bootcss.com/select2/4.0.5/js/select2.min.js"></script>
 <script>
     $(function() {

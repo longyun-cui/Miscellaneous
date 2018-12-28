@@ -1,6 +1,6 @@
 @extends('outside.admin.layout.layout')
 
-@section('title','目录排序')
+@section('head_title','目录排序')
 @section('header','目录排序')
 @section('description','目录排序')
 
@@ -66,7 +66,7 @@
 @endsection
 
 
-@section('js')
+@section('custom-script')
 <script>
 $(function() {
 

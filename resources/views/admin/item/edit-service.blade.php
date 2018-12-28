@@ -1,10 +1,10 @@
 @extends('admin.layout.layout')
 
-@section('create-text') 添加产品 @endsection
-@section('edit-text') 添加产品 @endsection
-@section('list-text') 产品列表 @endsection
+@section('create-text') 添加业务 @endsection
+@section('edit-text') 编辑业务 @endsection
+@section('list-text') 业务列表 @endsection
 
-@section('title')
+@section('head_title')
     @if($operate == 'create') @yield('create-text') @else @yield('edit-text') @endif
 @endsection
 
@@ -18,7 +18,7 @@
 
 @section('breadcrumb')
     <li><a href="{{ url('/admin') }}"><i class="fa fa-dashboard"></i> 首页</a></li>
-    <li><a href="{{ url('/admin/item/list?category=product') }}"><i class="fa "></i> @yield('list-text')</a></li>
+    <li><a href="{{ url('/admin/item/list?category=service') }}"><i class="fa "></i> @yield('list-text')</a></li>
     <li><a href="#"><i class="fa "></i> Here</a></li>
 @endsection
 
@@ -220,12 +220,12 @@
 @endsection
 
 
-@section('style')
+@section('custom-css')
     <link href="https://cdn.bootcss.com/select2/4.0.5/css/select2.min.css" rel="stylesheet">
 @endsection
 
 
-@section('js')
+@section('custom-script')
 <script src="https://cdn.bootcss.com/select2/4.0.5/js/select2.min.js"></script>
 <script>
     $(function() {

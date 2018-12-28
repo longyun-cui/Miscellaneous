@@ -106,6 +106,9 @@
                     <li class="@if(!empty($category) && ($category == '' || $category == 'all')) active @endif">
                         <a href="{{ url('/admin/menu/list') }}"><i class="fa fa-circle-o"></i> 全部目录</a>
                     </li>
+                    <li class="@if(!empty($category) && $category == 'service') active @endif">
+                        <a href="{{ url('/admin/menu/list?category=service') }}"><i class="fa fa-circle-o"></i> 业务目录</a>
+                    </li>
                     <li class="@if(!empty($category) && $category == 'product') active @endif">
                         <a href="{{ url('/admin/menu/list?category=product') }}"><i class="fa fa-circle-o"></i> 产品目录</a>
                     </li>

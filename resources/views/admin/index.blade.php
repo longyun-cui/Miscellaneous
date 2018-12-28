@@ -1,6 +1,6 @@
 @extends('admin.layout.layout')
 
-@section('title','企业后台')
+@section('head_title','企业后台')
 @section('header','企业后台')
 @section('description','企业后台')
 @section('breadcrumb')
@@ -13,9 +13,9 @@ admin.index
 @endsection
 
 
-@section('js')
-    <script>
-        $(function() {
-        });
-    </script>
+@section('custom-script')
+<script>
+    $(function() {
+    });
+</script>
 @endsection

@@ -7,7 +7,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>@yield('title')</title>
+    <title>@yield('head_title')</title>
     <meta name="_token" content="{{ csrf_token() }}"/>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -54,10 +54,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <link rel="stylesheet" href="{{ asset('common/css/frontend/index.css') }}" media="all" />
     <link rel="stylesheet" href="{{ asset('common/css/backend/index.css') }}" media="all" />
 
-    <link rel="stylesheet" href="{{asset('css/common.css')}}">
-    <link rel="stylesheet" href="{{asset('css/admin/index.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/common.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/admin/index.css') }}">
 
-    @yield('style')
+    @yield('custom-css')
+    @yield('custom-style')
 
 </head>
 <!--
@@ -125,8 +126,8 @@ desired effect
 
 <script src="https://cdn.bootcss.com/moment.js/2.19.0/moment.min.js"></script>
 
-<script src="{{asset('AdminLTE/plugins/datatables/jquery.dataTables.min.js')}}"></script>
-<script src="{{asset('AdminLTE/plugins/datatables/dataTables.bootstrap.min.js')}}"></script>
+<script src="{{ asset('AdminLTE/plugins/datatables/jquery.dataTables.min.js') }}"></script>
+<script src="{{ asset('AdminLTE/plugins/datatables/dataTables.bootstrap.min.js') }}"></script>
 
 <script src="https://cdn.bootcss.com/iCheck/1.0.2/icheck.min.js"></script>
 
@@ -138,14 +139,11 @@ desired effect
 
 <script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
 
-<script>
-
-</script>
-
 
 <script src="{{asset('js/admin/index.js')}}"></script>
 
-@yield('js')
+@yield('custom-js')
+@yield('custom-script')
 
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
      Both of these plugins are recommended to enhance the

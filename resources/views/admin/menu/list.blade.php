@@ -1,6 +1,6 @@
 @extends('admin.layout.layout')
 
-@section('title','目录列表')
+@section('head_title','目录列表')
 @section('header','目录列表')
 @section('description','目录列表')
 @section('breadcrumb')
@@ -37,6 +37,7 @@
                 <table class='table table-striped table-bordered' id='datatable_ajax'>
                     <thead>
                     <tr role='row' class='heading'>
+                        <th>#ID</th>
                         <th>标题</th>
                         <th>所属目录</th>
                         <th>内容数量</th>
@@ -50,6 +51,7 @@
                         <th>操作</th>
                     </tr>
                     <tr>
+                        <td></td>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -100,7 +102,7 @@
 
 
 
-@section('js')
+@section('custom-script')
 <script>
     var TableDatatablesAjax = function () {
         var datatableAjax = function () {
@@ -134,6 +136,13 @@
                 "order": [],
                 "orderCellsTop": true,
                 "columns": [
+                    {
+                        'data': 'id',
+                        'orderable': false,
+                        render: function(data, type, row, meta) {
+                            return data;
+                        }
+                    },
                     {
                         'data': 'encode_id',
                         'orderable': false,

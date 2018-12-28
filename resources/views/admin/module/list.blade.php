@@ -1,6 +1,6 @@
 @extends('admin.layout.layout')
 
-@section('title','首页模块列表')
+@section('head_title','首页模块列表')
 @section('header','首页模块列表')
 @section('description','列表')
 @section('breadcrumb')
@@ -89,7 +89,7 @@
 
 
 
-@section('js')
+@section('custom-script')
 <script>
     var TableDatatablesAjax = function () {
         var datatableAjax = function () {

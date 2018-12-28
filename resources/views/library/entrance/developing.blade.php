@@ -2,7 +2,7 @@
 
 
 {{--html.head--}}
-@section('head_title') developing-frontend @endsection
+@section('head_title') developing - GPS @endsection
 @section('meta_author')@endsection
 @section('meta_title')@endsection
 @section('meta_description')@endsection
@@ -54,8 +54,18 @@
 
 
 
-{{--footer--}}
+
+{{--style--}}
 @section('custom-style')
 <style>
 </style>
+@endsection
+
+
+
+
+{{--style--}}
+@section('custom-script')
+<script>
+</script>
 @endsection

@@ -1,6 +1,6 @@
 @extends('admin.layout.layout')
 
-@section('title') {{$data->title}} @endsection
+@section('head_title') {{$data->title}} @endsection
 @section('header') 目录：{{$data->title}} @endsection
 @section('description','内容列表')
 @section('breadcrumb')
@@ -88,7 +88,7 @@
 
 
 
-@section('js')
+@section('custom-script')
 <script>
     var TableDatatablesAjax = function () {
         var datatableAjax = function () {
@@ -132,12 +132,14 @@
                         'data': 'menus',
                         'orderable': false,
                         render: function(data, type, row, meta) {
-//                            return row.menu == null ? '未分类' : row.menu.name;
-                            var html = '';
-                            $.each(data,function( key, val ) {
-                                html += '<a href="/admin/menu/items?id='+this.encode_id+'">'+this.title+'</a><br>';
-                            });
-                            return html;
+                            // 单目录
+                            return row.menu == null ? '未分类' : row.menu.title;
+                            // 多目录
+//                            var html = '';
+//                            $.each(data,function( key, val ) {
+//                                html += '<a href="/admin/menu/items?id='+this.encode_id+'">'+this.title+'</a><br>';
+//                            });
+//                            return html;
                         }
                     },
                     {

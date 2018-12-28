@@ -1,6 +1,6 @@
 @extends('admin.layout.layout')
 
-@section('title','item')
+@section('head_title','message')
 
 @section('content')
 <div class="row">
@@ -9,7 +9,7 @@
         <div class="box box-info">
 
             <div class="box-header with-border">
-                <h3 class="box-title">item.index</h3>
+                <h3 class="box-title">message.index</h3>
             </div>
 
             <div class="box-body">
@@ -24,7 +24,7 @@
 @endsection
 
 
-@section('js')
+@section('custom-script')
 <script>
     $(function() {
     });

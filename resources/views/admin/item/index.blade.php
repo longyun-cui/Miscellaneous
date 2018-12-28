@@ -1,6 +1,6 @@
 @extends('admin.layout.layout')
 
-@section('title','item')
+@section('head_title','item')
 
 @section('content')
 <div class="row">
@@ -24,7 +24,7 @@
 @endsection
 
 
-@section('js')
+@section('custom-script')
 <script>
     $(function() {
     });
