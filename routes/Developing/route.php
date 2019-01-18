@@ -3,7 +3,7 @@
 
 $controller = "IndexController";
 
-Route::get('/', $controller."@index");
+Route::get('/', $controller."@view_root");
 
 
 /*

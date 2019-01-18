@@ -2,7 +2,7 @@
 
 
 {{--html.head--}}
-@section('head_title') developing - GPS @endsection
+@section('head_title') 【GPS】developing @endsection
 @section('meta_author')@endsection
 @section('meta_title')@endsection
 @section('meta_description')@endsection
@@ -31,6 +31,8 @@
     @include('library.component.banner-for-root')
 
     <div class="page-root">
+
+        @include('library.module.root-service-list', ['items'=>$items])
 
         @include('library.module.root-article-list', ['items'=>$items])
 

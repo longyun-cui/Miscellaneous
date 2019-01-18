@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\GPS;
 
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
-class GPSController extends Controller
+class IndexController extends Controller
 {
     //
     private $service;
@@ -22,23 +22,25 @@ class GPSController extends Controller
         return view('GPS.entrance.navigation');
     }
 
-    // 工具
-    public function tools()
+    // 测试
+    public function test_list()
     {
-        return view('GPS.entrance.tools');
+        return view('GPS.entrance.test-list');
+    }
+
+    // 工具
+    public function tool_list()
+    {
+        return view('GPS.entrance.tool-list');
     }
 
     // 模板
-    public function templates()
+    public function template_list()
     {
-        return view('GPS.entrance.templates');
+        return view('GPS.entrance.template-list');
     }
 
-    // 测试
-    public function testing()
-    {
-        return view('GPS.entrance.testing');
-    }
+
 
 
     //
@@ -49,6 +51,7 @@ class GPSController extends Controller
         {
             return response_success([],"type");
         }
+        // 生成密码
         else if($type == "password_encode")
         {
             $password = request("password");
@@ -57,7 +60,7 @@ class GPSController extends Controller
         }
         else if($type == "xx")
         {
-
+            return response_success([]);
         }
     }
 

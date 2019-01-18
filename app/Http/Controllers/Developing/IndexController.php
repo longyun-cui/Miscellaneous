@@ -1,21 +1,21 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Developing;
 
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
-use App\Repositories\DevelopingRepository;
+use App\Repositories\Developing\IndexRepository;
 
-class DevelopingController extends Controller
+class IndexController extends Controller
 {
     //
     private $service;
     private $repo;
     public function __construct()
     {
-        $this->repo = new DevelopingRepository;
+        $this->repo = new IndexRepository;
     }
 
 

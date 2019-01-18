@@ -24,17 +24,14 @@
             </div>
 
             <div>
-                <div class="col-lg-3 col-md-6 col-sm-6 item-col">
+                <div class="col-lg-4 col-md-4 col-sm-6 item-col">
                     @include('library.section.section-article-list-2', ['items'=>$items])
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 item-col">
+                <div class="col-lg-4 col-md-4 col-sm-6 item-col">
                     @include('library.section.section-article-list-2', ['items'=>$items])
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 item-col">
+                <div class="col-lg-4 col-md-4 col-sm-6 item-col">
                     @include('library.section.section-article-list-2', ['items'=>$items])
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 item-col">
-                    @include('library.section.section-article-list-2', ['items'=>[]])
                 </div>
             </div>
 

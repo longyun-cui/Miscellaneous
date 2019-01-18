@@ -45,8 +45,9 @@
                 </a>
                 <ul class="treeview-menu">
                     <li><a href="{{ url('/gps/navigation') }}"><i class="fa fa-circle-o text-blue"></i>Navigation</a></li>
-                    <li><a href="{{ url('/gps/tools') }}"><i class="fa fa-circle-o text-blue"></i>Tools</a></li>
-                    <li><a href="{{ url('/gps/templates') }}"><i class="fa fa-circle-o text-blue"></i>Templates</a></li>
+                    <li><a href="{{ url('/gps/test-list') }}"><i class="fa fa-circle-o text-blue"></i>Test</a></li>
+                    <li><a href="{{ url('/gps/tool-list') }}"><i class="fa fa-circle-o text-blue"></i>Tool</a></li>
+                    <li><a href="{{ url('/gps/template-list') }}"><i class="fa fa-circle-o text-blue"></i>Template</a></li>
                 </ul>
             </li>
 

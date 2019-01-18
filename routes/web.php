@@ -19,46 +19,50 @@ Route::get('/', function () {
 
 
 /*
+ * Common 通用功能
+ */
+Route::group(['prefix' => 'common'], function () {
+
+    $controller = "CommonController";
+
+    // 验证码
+    Route::match(['get','post'], 'change_captcha', $controller.'@change_captcha');
+
+    //
+    Route::get('dataTableI18n', function () {
+        return trans('pagination.i18n');
+    });
+});
+
+
+
+
+
+
+
+
+/*
  * GPS
  */
-Route::group(['prefix' => 'gps'], function () {
-
-    $controller = "GPSController";
-
-    //
-    Route::match(['get','post'], '/navigation',$controller.'@navigation');
-    Route::match(['get','post'], '/tools',$controller.'@tools');
-    Route::match(['get','post'], '/templates',$controller.'@templates');
-    Route::match(['get','post'], '/testing',$controller.'@testing');
-
-    Route::match(['get','post'], '/tool',$controller.'@tool');
-
+Route::group(['prefix' => 'gps', 'namespace' => 'GPS'], function () {
+    require(__DIR__ . '/GPS/route.php');
 });
 
 
-
-
 /*
- * 开发中
+ * TESTING 测试
  */
-Route::group(['prefix' => 'developing'], function () {
-
-    $controller = "DevelopingController";
-
-    //
-    Route::get('/', $controller.'@view_root');
-
+Route::group(['prefix' => 'testing', 'namespace' => 'Testing'], function () {
+    require(__DIR__ . '/Testing/route.php');
 });
 
 
-
-
-
 /*
- * TEST 测试
+ * Developing 开发中
  */
-Route::group(['prefix' => 'test', 'namespace' => 'Test'], function () {
-    require(__DIR__ . '/Test/route.php');
+Route::group(['prefix' => 'developing', 'namespace' => 'Developing'], function () {
+    require(__DIR__ . '/Developing/route.php');
+
 });
 
 
@@ -79,21 +83,6 @@ Route::group(['prefix' => 'email'], function () {
 
 
 
-/*
- * Common 通用功能
- */
-Route::group(['prefix' => 'common'], function () {
-
-    $controller = "CommonController";
-
-    // 验证码
-    Route::match(['get','post'], 'change_captcha', $controller.'@change_captcha');
-
-    //
-    Route::get('dataTableI18n', function () {
-        return trans('pagination.i18n');
-    });
-});
 
 
 
