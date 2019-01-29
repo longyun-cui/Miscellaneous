@@ -32,6 +32,8 @@
 
     <div class="page-root">
 
+        @include('library.module.section-left-right-bar', ['items'=>$items])
+
         @include('library.module.root-service-list', ['items'=>$items])
 
         @include('library.module.root-article-list', ['items'=>$items])
@@ -40,7 +42,7 @@
 
         @include('library.module.root-product-2', ['items'=>$items])
 
-        @include('frontend.module.root-recycle')
+        @include('library.module.root-recycle')
 
         @include('library.module.root-advantage-1')
 

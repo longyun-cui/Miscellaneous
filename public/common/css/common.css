@@ -411,6 +411,16 @@ img { max-width:100%; }
 .bg-black { background:#000; }
 .bg-light { background:#f5f5f5; }
 .bg-dark { background:#272727; }
+.bg-blue-1 {
+    background: #2d4d9b;
+    background: -webkit-gradient(linear,left top,right top,from(#207eb8),to(#337ab7));
+    background: linear-gradient(to right,#207eb8 0,#337ab7 100%);
+}
+.bg-pink-1 {
+    background: #f54ea2;
+    background: -webkit-gradient(linear,left top,right top,from(#f54ea2),to(#ff7676));
+    background: linear-gradient(to right,#f54ea2 0,#ff7676 100%);
+}
 
 
 /*.before-box { display:inline-block; position:relative; vertical-align:top; background:inherit; overflow:hidden; float:none; }*/
