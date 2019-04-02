@@ -15,30 +15,31 @@
         <div class="box box-default">
 
             <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm btn-default">btn-default</a>
-                <a target="_blank" class="margin btn btn-sm btn-success">btn-success</a>
-                <a target="_blank" class="margin btn btn-sm btn-warning">btn-warning</a>
-                <a target="_blank" class="margin btn btn-sm btn-danger">btn-danger</a>
-                <a target="_blank" class="margin btn btn-sm btn-primary">btn-primary</a>
-                <a target="_blank" class="margin btn btn-sm btn-info">btn-info</a>
-            </div>
+                <div>
+                    <a target="_blank" class="margin btn btn-sm btn-default">btn-default</a>
+                    <a target="_blank" class="margin btn btn-sm btn-success">btn-success</a>
+                    <a target="_blank" class="margin btn btn-sm btn-warning">btn-warning</a>
+                    <a target="_blank" class="margin btn btn-sm btn-danger">btn-danger</a>
+                    <a target="_blank" class="margin btn btn-sm btn-primary">btn-primary</a>
+                    <a target="_blank" class="margin btn btn-sm btn-info">btn-info</a>
+                </div>
+                <div>
+                    <a target="_blank" class="margin btn btn-sm bg-defult" href="/">bg-default</a>
+                    <a target="_blank" class="margin btn btn-sm bg-success" href="/">bg-success</a>
+                    <a target="_blank" class="margin btn btn-sm bg-warning" href="/">bg-warning</a>
+                    <a target="_blank" class="margin btn btn-sm bg-danger" href="/">bg-danger</a>
+                    <a target="_blank" class="margin btn btn-sm bg-primary" href="/">bg-primary</a>
+                    <a target="_blank" class="margin btn btn-sm bg-info" href="/">bg-info</a>
 
-            <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm bg-defult" href="/">bg-default</a>
-                <a target="_blank" class="margin btn btn-sm bg-success" href="/">bg-success</a>
-                <a target="_blank" class="margin btn btn-sm bg-warning" href="/">bg-warning</a>
-                <a target="_blank" class="margin btn btn-sm bg-danger" href="/">bg-danger</a>
-                <a target="_blank" class="margin btn btn-sm bg-primary" href="/">bg-primary</a>
-                <a target="_blank" class="margin btn btn-sm bg-info" href="/">bg-info</a>
-
-                <a target="_blank" class="margin btn btn-sm bg-olive" href="/">bg-olive</a>
-                <a target="_blank" class="margin btn btn-sm bg-purple" href="/">bg-purple</a>
-                <a target="_blank" class="margin btn btn-sm bg-orange" href="/">bg-orange</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="/">bg-maroon</a>
-                <a target="_blank" class="margin btn btn-sm bg-teal" href="/">bg-teal</a>
-                <a target="_blank" class="margin btn btn-sm bg-navy" href="/">bg-navy</a>
-                <a target="_blank" class="margin btn btn-sm bg-black" href="/">bg-black</a>
-                <a target="_blank" class="margin btn btn-sm bg-grey" href="/">bg-grey</a>
+                    <a target="_blank" class="margin btn btn-sm bg-olive" href="/">bg-olive</a>
+                    <a target="_blank" class="margin btn btn-sm bg-purple" href="/">bg-purple</a>
+                    <a target="_blank" class="margin btn btn-sm bg-orange" href="/">bg-orange</a>
+                    <a target="_blank" class="margin btn btn-sm bg-maroon" href="/">bg-maroon</a>
+                    <a target="_blank" class="margin btn btn-sm bg-teal" href="/">bg-teal</a>
+                    <a target="_blank" class="margin btn btn-sm bg-navy" href="/">bg-navy</a>
+                    <a target="_blank" class="margin btn btn-sm bg-black" href="/">bg-black</a>
+                    <a target="_blank" class="margin btn btn-sm bg-grey" href="/">bg-grey</a>
+                </div>
             </div>
 
             <div class="box-header with-border">
@@ -46,27 +47,40 @@
             </div>
 
             <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm btn-primary" href="http://live2.pub:8088/">邮件服务器 live2.pub:8088</a>
-                <a target="_blank" class="margin btn btn-sm btn-primary" href="http://cuilongyun.win:8088/">邮件服务器 cuilongyun.win:8088</a>
-                <a target="_blank" class="margin btn btn-sm bg-black" href="https://beian.aliyun.com/order/index.htm">阿里备案</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://116.62.214.223/public/ppma/index.php">HZ-phpMyAdmin</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://47.52.149.252/phpMyAdmin/">HK-phpMyAdmin</a>
-                <a target="_blank" class="margin btn btn-sm bg-black" href="https://ecs.console.aliyun.com/#/server/region/cn-hangzhou">ECS-HZ</a>
-                <a target="_blank" class="margin btn btn-sm bg-black" href="https://ecs.console.aliyun.com/#/server/region/cn-hongkong">ECS-HK</a>
-                <a target="_blank" class="margin btn btn-sm bg-black" href="https://netcn.console.aliyun.com/core/domain/list">阿里域名</a>
-                <a target="_blank" class="margin btn btn-sm bg-black" href="https://dysms.console.aliyun.com/dysms.htm">阿里短信</a>
-                <a target="_blank" class="margin btn btn-sm bg-black" href="https://market.aliyun.com/developer">阿里云·开发者工具</a>
-                <a target="_blank" class="margin btn btn-sm bg-black" href="https://qiye.aliyun.com/">阿里企业邮箱</a>
-            </div>
 
-            <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm btn-success" href="https://open.weixin.qq.com/">微信·开放平台</a>
-                <a target="_blank" class="margin btn btn-sm btn-success" href="https://mp.weixin.qq.com/">微信·公众平台</a>
-                <a target="_blank" class="margin btn btn-sm btn-success" href="https://mp.weixin.qq.com/wiki?t=resource/res_main">微信·公众号·开发文档</a>
-                <a target="_blank" class="margin btn btn-sm btn-success" href="https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list">微信·开放平台·开发文档</a>
-                <a target="_blank" class="margin btn btn-sm btn-success" href="https://mp.weixin.qq.com/debug/wxadoc/dev/">微信·小程序·开发文档</a>
-                <a target="_blank" class="margin btn btn-sm btn-success" href="https://exmail.qq.com/cgi-bin/loginpage">腾讯企业邮箱</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://mail.163.com/">网易邮箱</a>
+                <div>
+                    <a target="_blank" class="margin btn btn-sm btn-primary" href="http://live2.pub:8088/">邮件服务器 live2.pub:8088</a>
+                    <a target="_blank" class="margin btn btn-sm btn-primary" href="http://cuilongyun.win:8088/">邮件服务器 cuilongyun.win:8088</a>
+                </div>
+
+                <div>
+                    <a target="_blank" class="margin btn btn-sm bg-black" href="https://beian.aliyun.com/order/index.htm">阿里备案</a>
+                    <a target="_blank" class="margin btn btn-sm bg-black" href="https://netcn.console.aliyun.com/core/domain/list">阿里域名</a>
+                    <a target="_blank" class="margin btn btn-sm bg-black" href="https://dysms.console.aliyun.com/dysms.htm">阿里短信</a>
+                    <a target="_blank" class="margin btn btn-sm bg-black" href="https://market.aliyun.com/developer">阿里云·开发者工具</a>
+                    <a target="_blank" class="margin btn btn-sm bg-black" href="https://qiye.aliyun.com/">阿里企业邮箱</a>
+                    <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://mail.163.com/">网易邮箱</a>
+                </div>
+
+                <div>
+                    <a target="_blank" class="margin btn btn-sm bg-black" href="https://ecs.console.aliyun.com/#/server/region/cn-hangzhou">ECS-HZ</a>
+                    <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://116.62.214.223/public/ppma/index.php">HZ-phpMyAdmin</a>
+                </div>
+
+                <div>
+                    <a target="_blank" class="margin btn btn-sm bg-black" href="https://ecs.console.aliyun.com/#/server/region/cn-hongkong">ECS-HK</a>
+                    <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://47.52.149.252/phpMyAdmin/">HK-phpMyAdmin</a>
+                </div>
+
+                <div>
+                    <a target="_blank" class="margin btn btn-sm btn-success" href="https://open.weixin.qq.com/">微信·开放平台</a>
+                    <a target="_blank" class="margin btn btn-sm btn-success" href="https://mp.weixin.qq.com/">微信·公众平台</a>
+                    <a target="_blank" class="margin btn btn-sm btn-success" href="https://mp.weixin.qq.com/wiki?t=resource/res_main">微信·公众号·开发文档</a>
+                    <a target="_blank" class="margin btn btn-sm btn-success" href="https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list">微信·开放平台·开发文档</a>
+                    <a target="_blank" class="margin btn btn-sm btn-success" href="https://mp.weixin.qq.com/debug/wxadoc/dev/">微信·小程序·开发文档</a>
+                    <a target="_blank" class="margin btn btn-sm btn-success" href="https://exmail.qq.com/cgi-bin/loginpage">腾讯企业邮箱</a>
+                </div>
+
             </div>
 
             <div class="box-header with-border">
@@ -74,60 +88,74 @@
             </div>
 
             <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm btn-danger" href="http://softpub.cn">作者与作品 softpub.cn</a>
-                <a target="_blank" class="margin btn btn-sm btn-danger" href="http://softrow.cn">图表站 softrow.cn</a>
-                <a target="_blank" class="margin btn btn-sm btn-danger" href="http://softblog.cn">课栈三人行 softblog.cn</a>
-                <a target="_blank" class="margin btn btn-sm btn-danger" href="http://tinyline.cn">时间线 tinyline.cn</a>
-                <a target="_blank" class="margin btn btn-sm btn-danger" href="http://topicbus.cn">话题社 topicbus.cn</a>
-                <a target="_blank" class="margin btn btn-sm btn-danger" href="http://you2.pub">树洞 you2.pub</a>
+                <div>
+                    <a target="_blank" class="margin btn btn-sm btn-danger" href="http://softorg.cn">softorg</a>
+                    <a target="_blank" class="margin btn btn-sm btn-danger" href="http://softdoc.cn">softdoc</a>
+                    <a target="_blank" class="margin btn btn-sm btn-danger" href="http://chaoxianzu-org.cn/">K-ORG</a>
+                    <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.cn/developing/style/gps">softorg.GPS</a>
+                    <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.cn/super/admin">企业站超级管理员</a>
+                    <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.cn/org/register">企业站注册</a>
+                    <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.cn/org/admin">企业站后台</a>
+                    <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.cn/o/softorg">企业站前台</a>
+                    <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.cn/inside/admin">Inside后台</a>
+                    <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.cn/outside/admin">Outside后台</a>
+                </div>
+                <div>
+                    <a target="_blank" class="margin btn btn-sm btn-danger" href="http://softorg.com">softorg</a>
+                    <a target="_blank" class="margin btn btn-sm btn-danger" href="http://softdoc.com">softdoc</a>
+                    <a target="_blank" class="margin btn btn-sm btn-danger" href="http://chaoxianzu-org.com/">K-ORG</a>
+                    <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.com/developing/style/gps">softorg.GPS</a>
+                    <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.com/super/admin">企业站超级管理员</a>
+                    <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.com/org/register">企业站注册</a>
+                    <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.com/org/admin">企业站后台</a>
+                    <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.com/o/softorg">企业站前台</a>
+                    <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.com/inside/admin">Inside后台</a>
+                    <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.com/outside/admin">Outside后台</a>
+                </div>
             </div>
 
             <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.cn/developing/style/gps">GPS</a>
-                <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.cn/super/admin">企业站超级管理员</a>
-                <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.cn/org/register">企业站注册</a>
-                <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.cn/org/admin">企业站后台</a>
-                <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.cn/o/softorg">企业站前台</a>
-                <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.cn/inside/admin">Inside后台</a>
-                <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.cn/outside/admin">Outside后台</a>
+                <div>
+                    <a target="_blank" class="margin btn btn-sm bg-blue" href="http://seo.shmitong.com">SEO</a>
+                    <a target="_blank" class="margin btn btn-sm bg-blue" href="http://juafc.com">汉盟地产</a>
+                    <a target="_blank" class="margin btn btn-sm bg-blue" href="http://shxmej.com">盛贝地产</a>
+                    <a target="_blank" class="margin btn btn-sm bg-blue" href="http://tinymax.cn">JJ-MAX</a>
+                    <a target="_blank" class="margin btn btn-sm bg-blue" href="http://keron-relo.com">Keron</a>
+                    <a target="_blank" class="margin btn btn-sm bg-blue" href="http://yunfei-piano.com">云飞</a>
+                </div>
+                <div>
+                    <a target="_blank" class="margin btn btn-sm bg-blue" href="http://seo.mitong.com">SEO</a>
+                    <a target="_blank" class="margin btn btn-sm bg-blue" href="http://local-hanmeng.com">汉盟地产</a>
+                    <a target="_blank" class="margin btn btn-sm bg-blue" href="http://local-shengbei.com">盛贝地产</a>
+                    <a target="_blank" class="margin btn btn-sm bg-blue" href="http://local-jjmax.com">JJ-MAX</a>
+                    <a target="_blank" class="margin btn btn-sm bg-blue" href="http://local-keron.com">Keron</a>
+                    <a target="_blank" class="margin btn btn-sm bg-blue" href="http://local-yunfei.com">云飞</a>
+                </div>
             </div>
 
             <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.com/developing/style/gps">GPS</a>
-                <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.com/super/admin">企业站超级管理员</a>
-                <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.com/org/register">企业站注册</a>
-                <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.com/org/admin">企业站后台</a>
-                <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.com/o/softorg">企业站前台</a>
-                <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.com/inside/admin">Inside后台</a>
-                <a target="_blank" class="margin btn btn-sm btn-primary" href="http://softorg.com/outside/admin">Outside后台</a>
-            </div>
 
-            <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo8.cn:8088/login">登录页</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo8.cn:8088/guest">游客页</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo.date:8088/admin">作品</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo8.cn:8088/Program/divuncate">divuncate</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo8.cn:8088/Program/relation_init">relation_init</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo8.cn:8088/test">qingbo.test</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo8.cn:8088/testLearning">qingbo.testLearning</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo8.cn:8088/testLaravel">qingbo.testLaravel</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo8.cn:8088/testProgram">qingbo.testProgram</a>
-            </div>
+                <div>
+                    <a target="_blank" class="margin btn btn-sm btn-danger" href="http://softpub.cn">作者与作品 softpub.cn</a>
+                    <a target="_blank" class="margin btn btn-sm btn-danger" href="http://softrow.cn">图表站 softrow.cn</a>
+                    <a target="_blank" class="margin btn btn-sm btn-danger" href="http://softblog.cn">课栈三人行 softblog.cn</a>
+                    <a target="_blank" class="margin btn btn-sm btn-danger" href="http://tinyline.cn">时间线 tinyline.cn</a>
+                    <a target="_blank" class="margin btn btn-sm btn-danger" href="http://topicbus.cn">话题社 topicbus.cn</a>
+                    <a target="_blank" class="margin btn btn-sm btn-danger" href="http://you2.pub">树洞 you2.pub</a>
+                </div>
 
-            <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm bg-blue" href="http://juafc.com">汉盟地产</a>
-                <a target="_blank" class="margin btn btn-sm bg-blue" href="http://shxmej.com">盛贝地产</a>
-                <a target="_blank" class="margin btn btn-sm bg-blue" href="http://tinymax.cn">JJ-MAX</a>
-                <a target="_blank" class="margin btn btn-sm bg-blue" href="http://keron-relo.com">Keron</a>
-                <a target="_blank" class="margin btn btn-sm bg-blue" href="http://yunfei-piano.com">云飞</a>
-            </div>
+                <div>
+                    <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo8.cn:8088/login">登录页</a>
+                    <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo8.cn:8088/guest">游客页</a>
+                    <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo.date:8088/admin">作品</a>
+                    <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo8.cn:8088/Program/divuncate">divuncate</a>
+                    <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo8.cn:8088/Program/relation_init">relation_init</a>
+                    <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo8.cn:8088/test">qingbo.test</a>
+                    <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo8.cn:8088/testLearning">qingbo.testLearning</a>
+                    <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo8.cn:8088/testLaravel">qingbo.testLaravel</a>
+                    <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://qingbo8.cn:8088/testProgram">qingbo.testProgram</a>
+                </div>
 
-            <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm bg-blue" href="http://local-hanmeng.com">汉盟地产</a>
-                <a target="_blank" class="margin btn btn-sm bg-blue" href="http://local-shengbei.com">盛贝地产</a>
-                <a target="_blank" class="margin btn btn-sm bg-blue" href="http://local-jjmax.com">JJ-MAX</a>
-                <a target="_blank" class="margin btn btn-sm bg-blue" href="http://local-keron.com">Keron</a>
-                <a target="_blank" class="margin btn btn-sm bg-blue" href="http://local-yunfei.com">云飞</a>
             </div>
 
         </div>
@@ -289,6 +317,185 @@
 </div>
 
 
+
+
+{{--Documents--}}
+<div class="row">
+    <div class="col-md-12">
+        <!-- BEGIN PORTLET-->
+        <div class="box box-default">
+
+            <div class="box-header with-border" style="margin:4px 0 16px">
+                <h3 class="box-title">Life</h3>
+            </div>
+            <div class="box-body">
+
+                <div>
+                    <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.google.cn/maps">Google地图</a>
+                    <a target="_blank" class="margin btn btn-sm bg-purple" href="http://map.baidu.com">百度地图</a>
+                    <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://map.baidu.com/subways/index.html?c=shanghai">上海地铁</a>
+                </div>
+
+                <div>
+                    <a target="_blank" class="margin btn btn-sm btn-success" href="http://www.dy2018.com/">dy2018</a>
+                    <a target="_blank" class="margin btn btn-sm bg-info" href="http://www.youku.com/">优酷</a>
+                    <a target="_blank" class="margin btn btn-sm bg-success" href="https://v.qq.com/">腾讯视频</a>
+                    <a target="_blank" class="margin btn btn-sm bg-olive" href="http://www.iqiyi.com/">爱奇艺</a>
+                    <a target="_blank" class="margin btn btn-sm bg-purple" href="https://www.iqiyi.com/a_19rrhb3xvl.html">海贼王</a>
+                    <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://www.ashleymadison.com">ashleymadison</a>
+                    <a target="_blank" class="margin btn btn-sm bg-purple" href="https://weibo.com/u/2427880080/home">微博</a>
+                    <a target="_blank" class="margin btn btn-sm bg-purple" href="https://www.douban.com/">豆瓣</a>
+                </div>
+
+                <div>
+                    <a target="_blank" class="margin btn btn-sm bg-info" href="http://list.youku.com/show/id_z6e782defbfbd0d4e11ef.html">晓说</a>
+                    <a target="_blank" class="margin btn btn-sm bg-info" href="http://www.iqiyi.com/a_19rrgifngp.html">晓松奇谈</a>
+                    <a target="_blank" class="margin btn btn-sm bg-info" href="http://list.youku.com/show/id_z64feb2249b8211e296da.html">晓说第二季2013-14</a>
+                    <a target="_blank" class="margin btn btn-sm bg-info" href="http://list.youku.com/show/id_zc3c10ca46d8d11e1b52a.html">晓说第一季2012-13</a>
+
+                    <a target="_blank" class="margin btn btn-sm bg-danger" href="http://list.youku.com/show/id_z5bdbf57c947311e3b8b7.html">罗辑思维</a>
+                </div>
+
+                <div>
+                    <a target="_blank" class="margin btn btn-sm bg-info" href="http://v.qq.com/detail/8/80376.html">十三邀 3</a>
+                    <a target="_blank" class="margin btn btn-sm bg-info" href="http://v.qq.com/detail/6/68145.html">十三邀 2</a>
+                    <a target="_blank" class="margin btn btn-sm bg-info" href="http://v.qq.com/detail/4/49622.html">十三邀 1</a>
+
+                    <a target="_blank" class="margin btn btn-sm bg-danger" href="http://list.youku.com/show/id_z662fefbfbd61efbfbdef.html">一千零一夜走出季</a>
+                    <a target="_blank" class="margin btn btn-sm bg-danger" href="http://list.youku.com/show/id_z7c87f1ae8e6311e5b522.html">一千零一夜</a>
+
+                    <a target="_blank" class="margin btn btn-sm bg-warning" href="http://list.youku.com/show/id_zefbfbd3cefbfbd64efbf.html">圆桌派第3季</a>
+                    <a target="_blank" class="margin btn btn-sm bg-warning" href="http://list.youku.com/show/id_z3127efbfbd11250911ef.html">圆桌派第2季</a>
+                    <a target="_blank" class="margin btn btn-sm bg-warning" href="http://list.youku.com/show/id_z66ba2c36920211e6b9bb.html">圆桌派第1季</a>
+
+                    <a target="_blank" class="margin btn btn-sm bg-info" href="http://list.youku.com/show/id_zefbfbdefbfbd3e0defbf.html">局部 2</a>
+                    <a target="_blank" class="margin btn btn-sm bg-info" href="http://list.youku.com/show/id_zcc117696c7cb11e4b432.html">局部 1</a>
+                </div>
+
+                <div>
+                    <a target="_blank" class="margin btn btn-sm bg-success" href="http://www.iqiyi.com/a_19rrhcoc51.html">坑王驾到 2</a>
+                    <a target="_blank" class="margin btn btn-sm bg-success" href="http://www.iqiyi.com/a_19rrh9pwd9.html">坑王驾到 1</a>
+
+                    <a target="_blank" class="margin btn btn-sm bg-orange" href="https://www.mgtv.com/h/320520.html">天天向上</a>
+                </div>
+
+                <div>
+                    <a target="_blank" class="margin btn btn-sm bg-success" href="http://list.youku.com/show/id_za94e7c9a1af411e5b2ad.html">新城商业</a>
+                </div>
+
+                <div>
+                </div>
+
+            </div>
+
+
+
+            <div class="box-header with-border">
+                <h3 class="box-title">Sports</h3>
+            </div>
+            <div class="box-body">
+                <a target="_blank" class="margin btn btn-sm bg-orange" href="https://www.zhibo8.cc">直播吧</a>
+                <a target="_blank" class="margin btn btn-sm btn-success" href="http://sports.pptv.com">PPTV</a>
+                <a target="_blank" class="margin btn btn-sm btn-success" href="http://sports.sina.com.cn/g/pl/table.html">英超积分榜</a>
+                <a target="_blank" class="margin btn btn-sm btn-success" href="http://sports.sina.com.cn/csl/table">中超积分榜</a>
+                <a target="_blank" class="margin btn btn-sm btn-success" href="http://sports.qq.com/">腾讯体育</a>
+                <a target="_blank" class="margin btn btn-sm btn-success" href="http://sports.qq.com/nba">腾讯NBA</a>
+
+                <a target="_blank" class="margin btn btn-sm bg-success" href="https://weibo.com/donglu?is_all=1">董路微博</a>
+                <a target="_blank" class="margin btn btn-sm bg-success" href="http://www.yizhibo.com/member/personel/user_info?memberid=39369208">董路一直播</a>
+                <a target="_blank" class="margin btn btn-sm bg-success" href="http://star.longzhu.com/donglu/sport">董路龙珠</a>
+
+                <a target="_blank" class="margin btn btn-sm btn-success" href="https://www.transfermarkt.com/">德国转会市场</a>
+                <a target="_blank" class="margin btn btn-sm btn-success" href="http://www.stat-nba.com/query.php?QueryType=all&AllType=season&AT=tot&order=1&crtcol=threep&PageNum=50">NBA-数据库</a>
+            </div>
+
+
+
+            <div class="box-header with-border">
+                <h3 class="box-title">Buy</h3>
+            </div>
+            <div class="box-body">
+                <a target="_blank" class="margin btn btn-sm btn-default" href="https://www.amazon.cn/">亚马逊</a>
+                <a target="_blank" class="margin btn btn-sm bg-danger" href="https://www.jd.com/">京东</a>
+                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://luojisiwei.tmall.com/category.htm?spm=a1z10.3-b-s.w4011-14454324002.43.5eeR3T&search=y&orderType=newOn_desc">罗辑思维</a>
+            </div>
+
+
+
+            <div class="box-header with-border">
+                <h3 class="box-title">Life.Tools</h3>
+            </div>
+            <div class="box-body">
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.gsxt.gov.cn/index.html">企业信用信息</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://xin.baidu.com/">百度企业信用</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://www.tianyancha.com/">天眼查</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://salarycalculator.sinaapp.com/">上海税后工资计算器</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.miitbeian.gov.cn">ICP备案</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.chsi.com.cn/">学信网</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://checkcoverage.apple.com/cn/zh/">apple保修服务和支持期限</a>
+            </div>
+
+
+            <div class="box-header with-border">
+                <h3 class="box-title">Life.Tools</h3>
+            </div>
+            <div class="box-body">
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.zhaopin.com/">智联招聘</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href=""></a>
+            </div>
+
+        </div>
+        <!-- END PORTLET-->
+    </div>
+</div>
+
+
+
+
+<div class="row">
+    <div class="col-md-12">
+        <!-- BEGIN PORTLET-->
+        <div class="box box-default">
+
+            <div class="box-header with-border" style="margin:4px 0 16px">
+                <h3 class="box-title">企业首页</h3>
+            </div>
+            <div class="box-body">
+
+                <div>
+                    <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.meritse.com/">锐凡企业管理咨询（上海）有限公司</a>
+                    <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://www.paintin.cn/">Paintin（插画师）</a>
+                    <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://leancapital.tk/">精益资本</a>
+                    <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.youguard.cn/">上海誉甲自动化技术有限公司</a>
+                    <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.10years.me/account/login">10年后</a>
+                    <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.justsy.com">嘉兴嘉赛</a>
+                    <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://www.vipp.com/en-us">vipp</a>
+                </div>
+
+                <div>
+
+                </div>
+
+            </div>
+
+            <div class="box-header with-border">
+                <h3 class="box-title">design</h3>
+            </div>
+            <div class="box-body">
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.hellorf.com/">站酷海洛</a>
+                <a target="_blank" class="margin btn btn-sm bg-maroon" href=""></a>
+            </div>
+
+
+
+        </div>
+        <!-- END PORTLET-->
+    </div>
+</div>
+
+
+
+
 {{--Reading--}}
 <div class="row">
     <div class="col-md-12">
@@ -378,169 +585,6 @@
             </div>
             <div class="box-body">
             </div>
-
-        </div>
-        <!-- END PORTLET-->
-    </div>
-</div>
-
-
-
-{{--Documents--}}
-<div class="row">
-    <div class="col-md-12">
-        <!-- BEGIN PORTLET-->
-        <div class="box box-default">
-
-            <div class="box-header with-border" style="margin:4px 0 16px">
-                <h3 class="box-title">Life</h3>
-            </div>
-            <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.google.cn/maps">Google地图</a>
-                <a target="_blank" class="margin btn btn-sm bg-purple" href="http://map.baidu.com">百度地图</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://map.baidu.com/subways/index.html?c=shanghai">上海地铁</a>
-            </div>
-
-            <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm btn-success" href="http://www.dy2018.com/">dy2018</a>
-                <a target="_blank" class="margin btn btn-sm bg-info" href="http://www.youku.com/">优酷</a>
-                <a target="_blank" class="margin btn btn-sm bg-success" href="https://v.qq.com/">腾讯视频</a>
-                <a target="_blank" class="margin btn btn-sm bg-olive" href="http://www.iqiyi.com/">爱奇艺</a>
-                <a target="_blank" class="margin btn btn-sm bg-purple" href="https://www.iqiyi.com/a_19rrhb3xvl.html">海贼王</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://www.ashleymadison.com">ashleymadison</a>
-                <a target="_blank" class="margin btn btn-sm bg-purple" href="https://weibo.com/u/2427880080/home">微博</a>
-                <a target="_blank" class="margin btn btn-sm bg-purple" href="https://www.douban.com/">豆瓣</a>
-            </div>
-
-            <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm bg-info" href="http://list.youku.com/show/id_z6e782defbfbd0d4e11ef.html">晓说</a>
-                <a target="_blank" class="margin btn btn-sm bg-info" href="http://www.iqiyi.com/a_19rrgifngp.html">晓松奇谈</a>
-                <a target="_blank" class="margin btn btn-sm bg-info" href="http://list.youku.com/show/id_z64feb2249b8211e296da.html">晓说第二季2013-14</a>
-                <a target="_blank" class="margin btn btn-sm bg-info" href="http://list.youku.com/show/id_zc3c10ca46d8d11e1b52a.html">晓说第一季2012-13</a>
-
-                <a target="_blank" class="margin btn btn-sm bg-danger" href="http://list.youku.com/show/id_z5bdbf57c947311e3b8b7.html">罗辑思维</a>
-
-            </div>
-
-            <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm bg-info" href="http://v.qq.com/detail/8/80376.html">十三邀 3</a>
-                <a target="_blank" class="margin btn btn-sm bg-info" href="http://v.qq.com/detail/6/68145.html">十三邀 2</a>
-                <a target="_blank" class="margin btn btn-sm bg-info" href="http://v.qq.com/detail/4/49622.html">十三邀 1</a>
-
-                <a target="_blank" class="margin btn btn-sm bg-danger" href="http://list.youku.com/show/id_z662fefbfbd61efbfbdef.html">一千零一夜走出季</a>
-                <a target="_blank" class="margin btn btn-sm bg-danger" href="http://list.youku.com/show/id_z7c87f1ae8e6311e5b522.html">一千零一夜</a>
-
-                <a target="_blank" class="margin btn btn-sm bg-warning" href="http://list.youku.com/show/id_zefbfbd3cefbfbd64efbf.html">圆桌派第3季</a>
-                <a target="_blank" class="margin btn btn-sm bg-warning" href="http://list.youku.com/show/id_z3127efbfbd11250911ef.html">圆桌派第2季</a>
-                <a target="_blank" class="margin btn btn-sm bg-warning" href="http://list.youku.com/show/id_z66ba2c36920211e6b9bb.html">圆桌派第1季</a>
-
-                <a target="_blank" class="margin btn btn-sm bg-info" href="http://list.youku.com/show/id_zefbfbdefbfbd3e0defbf.html">局部 2</a>
-                <a target="_blank" class="margin btn btn-sm bg-info" href="http://list.youku.com/show/id_zcc117696c7cb11e4b432.html">局部 1</a>
-            </div>
-
-            <div class="box-body">
-
-                <a target="_blank" class="margin btn btn-sm bg-success" href="http://www.iqiyi.com/a_19rrhcoc51.html">坑王驾到 2</a>
-                <a target="_blank" class="margin btn btn-sm bg-success" href="http://www.iqiyi.com/a_19rrh9pwd9.html">坑王驾到 1</a>
-
-                <a target="_blank" class="margin btn btn-sm bg-orange" href="https://www.mgtv.com/h/320520.html">天天向上</a>
-            </div>
-
-            <div class="box-body">
-
-                <a target="_blank" class="margin btn btn-sm bg-success" href="http://list.youku.com/show/id_za94e7c9a1af411e5b2ad.html">新城商业</a>
-            </div>
-
-
-
-            <div class="box-header with-border">
-                <h3 class="box-title">Sports</h3>
-            </div>
-            <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm bg-orange" href="https://www.zhibo8.cc">直播吧</a>
-                <a target="_blank" class="margin btn btn-sm btn-success" href="http://sports.pptv.com">PPTV</a>
-                <a target="_blank" class="margin btn btn-sm btn-success" href="http://sports.sina.com.cn/g/pl/table.html">英超积分榜</a>
-                <a target="_blank" class="margin btn btn-sm btn-success" href="http://sports.sina.com.cn/csl/table">中超积分榜</a>
-                <a target="_blank" class="margin btn btn-sm btn-success" href="http://sports.qq.com/">腾讯体育</a>
-                <a target="_blank" class="margin btn btn-sm btn-success" href="http://sports.qq.com/nba">腾讯NBA</a>
-
-                <a target="_blank" class="margin btn btn-sm bg-success" href="https://weibo.com/donglu?is_all=1">董路微博</a>
-                <a target="_blank" class="margin btn btn-sm bg-success" href="http://www.yizhibo.com/member/personel/user_info?memberid=39369208">董路一直播</a>
-                <a target="_blank" class="margin btn btn-sm bg-success" href="http://star.longzhu.com/donglu/sport">董路龙珠</a>
-
-                <a target="_blank" class="margin btn btn-sm btn-success" href="https://www.transfermarkt.com/">德国转会市场</a>
-                <a target="_blank" class="margin btn btn-sm btn-success" href="http://www.stat-nba.com/query.php?QueryType=all&AllType=season&AT=tot&order=1&crtcol=threep&PageNum=50">NBA-数据库</a>
-            </div>
-
-
-
-            <div class="box-header with-border">
-                <h3 class="box-title">Buy</h3>
-            </div>
-            <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm btn-default" href="https://www.amazon.cn/">亚马逊</a>
-                <a target="_blank" class="margin btn btn-sm bg-danger" href="https://www.jd.com/">京东</a>
-                <a target="_blank" class="margin btn btn-sm bg-primary" href="https://luojisiwei.tmall.com/category.htm?spm=a1z10.3-b-s.w4011-14454324002.43.5eeR3T&search=y&orderType=newOn_desc">罗辑思维</a>
-            </div>
-
-
-
-            <div class="box-header with-border">
-                <h3 class="box-title">Life.Tools</h3>
-            </div>
-            <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.gsxt.gov.cn/index.html">企业信用信息</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://xin.baidu.com/">百度企业信用</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://www.tianyancha.com/">天眼查</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://salarycalculator.sinaapp.com/">上海税后工资计算器</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.miitbeian.gov.cn">ICP备案</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.chsi.com.cn/">学信网</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://checkcoverage.apple.com/cn/zh/">apple保修服务和支持期限</a>
-            </div>
-
-
-            <div class="box-header with-border">
-                <h3 class="box-title">Life.Tools</h3>
-            </div>
-            <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.zhaopin.com/">智联招聘</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href=""></a>
-            </div>
-
-        </div>
-        <!-- END PORTLET-->
-    </div>
-</div>
-
-
-
-<div class="row">
-    <div class="col-md-12">
-        <!-- BEGIN PORTLET-->
-        <div class="box box-default">
-
-            <div class="box-header with-border" style="margin:4px 0 16px">
-                <h3 class="box-title">企业首页</h3>
-            </div>
-            <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.meritse.com/">锐凡企业管理咨询（上海）有限公司</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://www.paintin.cn/">Paintin（插画师）</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://leancapital.tk/">精益资本</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.youguard.cn/">上海誉甲自动化技术有限公司</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.10years.me/account/login">10年后</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.justsy.com">嘉兴嘉赛</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="https://www.vipp.com/en-us">vipp</a>
-            </div>
-
-            <div class="box-header with-border">
-                <h3 class="box-title">design</h3>
-            </div>
-            <div class="box-body">
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href="http://www.hellorf.com/">站酷海洛</a>
-                <a target="_blank" class="margin btn btn-sm bg-maroon" href=""></a>
-            </div>
-
-
 
         </div>
         <!-- END PORTLET-->

@@ -45,6 +45,21 @@ Route::get('/url', function () {
     echo 'storage_path(uploads) ---- '.storage_path('uploads')."<br>";
 
 });
+
+
+
+
+Route::get('/headers', function () {
+
+    $headers = apache_request_headers();
+    $headers = getallheaders();
+    dd($headers);
+    $header = request()->header();
+    dd($header);
+
+});
+
+
 // Route::get('/send/email', $controller.'@send_email');
 
 // Route::get('/send_sms', "{$controller}@send_sms");
@@ -52,5 +67,8 @@ Route::get('/url', function () {
 Route::get('/image', "{$controller}@image");
 
 Route::get('/eloquent', "{$controller}@eloquent");
+
+Route::get('/eloquent', "{$controller}@eloquent");
+
 
 

@@ -1,5 +1,8 @@
 html { overflow-x:hidden; }
-body { overflow-x:hidden; }
+body {
+    font: 12px Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    overflow-x:hidden;
+}
 
 img { max-width:100%; }
 

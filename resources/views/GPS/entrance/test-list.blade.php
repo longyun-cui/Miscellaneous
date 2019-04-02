@@ -25,6 +25,7 @@
             <div class="box-body">
                 <a target="_blank" class="margin btn btn-sm btn-primary" href="{{ url('/testing/url') }}">URL</a>
                 <a target="_blank" class="margin btn btn-sm btn-primary" href="{{ url('/testing/++') }}">++</a>
+                <a target="_blank" class="margin btn btn-sm btn-primary" href="{{ url('/testing/headers') }}">headers</a>
             </div>
 
             <div class="box-footer">
