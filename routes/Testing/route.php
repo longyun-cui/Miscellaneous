@@ -18,6 +18,12 @@ Route::get('/++', function () {
 });
 
 
+
+Route::match(['get','post'], '/seo/youbangyun', "{$controller}@seo_youbangyun");
+
+
+
+
 Route::get('/url', function () {
 
     echo "url()->full() ---- ".url()->full()."<br>";

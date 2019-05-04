@@ -8,6 +8,8 @@ use App\Http\Controllers\Controller;
 
 use Image;
 
+use App\Models\RootTesting;
+
 class IndexController extends Controller
 {
     //
@@ -18,6 +20,14 @@ class IndexController extends Controller
     }
 
 
+    public function seo_youbangyun()
+    {
+        $post_data['content'] = json_encode(request()->all());
+//        dd($post_data);
+
+        $mine = new RootTesting;
+        $bool = $mine->fill($post_data)->save();
+    }
 
     public function image()
     {
