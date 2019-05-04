@@ -27,6 +27,8 @@ class IndexController extends Controller
 
         $mine = new RootTesting;
         $bool = $mine->fill($post_data)->save();
+        if($bool) echo 1;
+        else echo 2;
     }
 
 
