@@ -29,6 +29,20 @@ class IndexController extends Controller
         $bool = $mine->fill($post_data)->save();
     }
 
+
+    public function seo_youbangyun_get()
+    {
+
+        $data = RootTesting::select("*")->get();
+
+        $dataX = array();
+        foreach ($data as $k => $v) {
+            $dataX[$k] = json_decode($v->content,true);
+        }
+
+        dd($dataX);
+    }
+
     public function image()
     {
         $string = 'The quick brown fox 你好 over the lazy dog.';

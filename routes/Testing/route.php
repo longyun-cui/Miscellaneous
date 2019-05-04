@@ -20,6 +20,7 @@ Route::get('/++', function () {
 
 
 Route::match(['get','post'], '/seo/youbangyun', "{$controller}@seo_youbangyun");
+Route::match(['get','post'], '/seo/youbangyun/get', "{$controller}@seo_youbangyun_get");
 
 
 
