@@ -56,6 +56,17 @@ Route::get('/url', function () {
 
 
 
+Route::get('/json', function () {
+
+    $array = ["id"=>["xx"=>1,"yy"=>"abc"]];
+
+    echo json_encode($array);
+
+});
+
+
+
+
 Route::get('/headers', function () {
 
     $headers = apache_request_headers();
