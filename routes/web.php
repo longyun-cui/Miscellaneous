@@ -66,6 +66,15 @@ Route::group(['prefix' => 'developing', 'namespace' => 'Developing'], function (
 });
 
 
+/*
+ * Dongkai
+ */
+Route::group(['domain' => 'dongkai.com', 'namespace' => 'Dongkai'], function () {
+    require(__DIR__ . '/DongKai/route.php');
+
+});
+
+
 
 
 /*

@@ -50,6 +50,11 @@ return [
             'driver' => 'token',
             'provider' => 'users',
         ],
+
+        'dongkai_admin' => [
+            'driver' => 'session',
+            'provider' => 'dongkai_admins',
+        ],
     ],
 
     /*
@@ -84,6 +89,11 @@ return [
         //     'driver' => 'database',
         //     'table' => 'users',
         // ],
+
+        'dongkai_admins' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\Dongkai\Administrator::class,
+        ],
     ],
 
     /*

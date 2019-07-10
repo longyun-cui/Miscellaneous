@@ -190,5 +190,38 @@ class IndexController extends Controller
     }
 
 
+    public function write_log(){
+
+//设置目录时间
+
+        $years = date('Y-m');
+
+//设置路径目录信息
+
+        $url  = './public/log/texlog/'.$years.'/'.$years.'_request_log.txt';
+
+//取出目录路径中目录(不包括后面的文件)
+
+        $dir_name = dirname($url);
+
+//如果目录不存在就创建
+
+        if(!file_exists($dir_name)) {
+
+//iconv防止中文乱码
+
+            $res = mkdir(iconv("UTF-8","GBK",$dir_name),0777,true);
+
+        }
+
+//$fp = fopen($url,"a");//打开文件资源通道 不存在则自动创建
+
+        fwrite($fp,var_export($data,true)."\r\n");//写入文件
+
+        fclose($fp);//关闭资源通道
+
+    }
+
+
 
 }

@@ -64,5 +64,8 @@ class Kernel extends HttpKernel
         'notification' => \App\Http\Middleware\NotificationMiddleware::class,
         'login' => \App\Http\Middleware\LoginMiddleware::class,
         'login.turn' => \App\Http\Middleware\TurnToLoginMiddleware::class,
+
+
+        'dongkai.admin' => \App\Http\Middleware\DongkaiAdminMiddleware::class,
     ];
 }
