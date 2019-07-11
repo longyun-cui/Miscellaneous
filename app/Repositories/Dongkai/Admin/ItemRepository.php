@@ -28,7 +28,7 @@ class ItemRepository {
     public function get_list_datatable($post_data)
     {
         $admin = Auth::guard('dongkai_admin')->user();
-        $query = RootItem::select("*")->with(['admin','pivot_menus']);
+        $query = RootItem::select("*")->with(['admin','menu','pivot_menus']);
 
         $category = $post_data['category'];
         if($category == "info") $query->where('category', 1);

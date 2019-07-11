@@ -1,10 +1,10 @@
 <?php
 namespace App\Repositories\Dongkai\Front;
 
-use App\Models\RootModule;
-use App\Models\RootMenu;
-use App\Models\RootItem;
-use App\Models\RootMessage;
+use App\Models\Dongkai\RootModule;
+use App\Models\Dongkai\RootMenu;
+use App\Models\Dongkai\RootItem;
+use App\Models\Dongkai\RootMessage;
 
 use App\Repositories\Common\CommonRepository;
 
@@ -27,28 +27,17 @@ class IndexRepository {
 //        $info = json_decode(json_encode(config('mitong.company.info')));
 //        $menus = RootMenu::where(['active'=>1])->orderby('order', 'asc')->get();
 
-        $rent_items = RootItem::where(['category'=>11, 'active'=>1])->orderby('updated_at', 'desc')->limit(8)->get();
-        foreach($rent_items as $item)
+        $loan_menus = RootMenu::with(['items'])->where(['active'=>1])->orderby('updated_at', 'desc')->get();
+//        dd($loan_menus);
+        $loan_items = RootItem::where(['active'=>1])->orderby('updated_at', 'desc')->get();
+        foreach($loan_items as $item)
         {
             $item->custom = json_decode($item->custom);
         }
 
-        $wholesale_items = RootItem::where(['category'=>12, 'active'=>1])->orderby('updated_at', 'desc')->limit(4)->get();
-        foreach($wholesale_items as $item)
-        {
-            $item->custom = json_decode($item->custom);
-        }
-
-        $cooperation_items = RootItem::where(['category'=>9, 'active'=>1])->orderby('updated_at', 'desc')->get();
-        $coverage_items = RootItem::where(['category'=>41, 'active'=>1])->orderby('updated_at', 'desc')->get();
-        $client_items = RootItem::where(['category'=>51, 'active'=>1])->orderby('updated_at', 'desc')->get();
-
-        $html = view('frontend.entrance.root')->with([
-                'rent_items'=>$rent_items,
-                'wholesale_items'=>$wholesale_items,
-                'cooperation_items'=>$cooperation_items,
-                'coverage_items'=>$coverage_items,
-                'client_items'=>$client_items
+        $html = view('dongkai.frontend.entrance.root')->with([
+                'loan_menus'=>$loan_menus,
+                'loan_items'=>$loan_items,
             ])->__toString();
         return $html;
     }

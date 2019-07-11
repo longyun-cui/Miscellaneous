@@ -1,8 +1,8 @@
-@extends('frontend.layout.layout')
+@extends('dongkai.frontend.layout.layout')
 
 
 {{--html.head--}}
-@section('head_title'){{ config('company.info.short_name') }}@endsection
+@section('head_title')快速下款@endsection
 @section('meta_author')@endsection
 @section('meta_title')@endsection
 @section('meta_description')@endsection
@@ -12,13 +12,13 @@
 
 {{--header--}}
 @section('component-header')
-    @include('frontend.component.header')
+    {{--@include('dongkai.frontend.component.header')--}}
 @endsection
 
 
 {{--footer--}}
 @section('component-footer')
-    @include('frontend.component.footer')
+    {{--@include('dongkai.frontend.component.footer')--}}
 @endsection
 
 
@@ -28,23 +28,11 @@
 @section('custom-content')
 
     {{--banner--}}
-    @include('frontend.component.banner-for-root')
+    @include('dongkai.frontend.component.banner-for-root')
 
     <div class="page-root">
 
-        @include('frontend.module.root-rent-out', ['items'=>$rent_items])
-
-        @include('frontend.module.root-cooperation', ['items'=>$cooperation_items])
-
-        @include('frontend.module.root-second-wholesale', ['items'=>$wholesale_items])
-
-        @include('frontend.module.root-recycle')
-
-        @include('frontend.module.root-advantage')
-
-        @include('frontend.module.root-coverage', ['items'=>$coverage_items])
-
-        @include('frontend.module.root-qrcode')
+        @include('dongkai.frontend.module.root-loan', ['menus'=>$loan_menus,'items'=>$loan_items])
 
     </div>
 

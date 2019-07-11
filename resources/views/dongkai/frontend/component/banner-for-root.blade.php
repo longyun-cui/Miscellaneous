@@ -1,5 +1,5 @@
 {{--banner--}}
-<div class="banner-container main-slider-wrapper clearfix">
+<div class="banner-container main-slider-wrapper clearfix" style="margin-top:0;">
     <div class="banner-slider-container">
         <div class="banner-slider-box" id="main-slider">
                 <div class="slide"><img src="{{ url('/common/images/banner1.jpg') }}" alt="Slide"></div>

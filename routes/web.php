@@ -11,7 +11,8 @@
 |
 */
 
-Route::get('/', function () {
+
+Route::get('/welcome', function () {
     return view('welcome');
 });
 
@@ -37,10 +38,6 @@ Route::group(['prefix' => 'common'], function () {
 
 
 
-
-
-
-
 /*
  * GPS
  */
@@ -62,16 +59,17 @@ Route::group(['prefix' => 'testing', 'namespace' => 'Testing'], function () {
  */
 Route::group(['prefix' => 'developing', 'namespace' => 'Developing'], function () {
     require(__DIR__ . '/Developing/route.php');
-
 });
 
 
 /*
  * Dongkai
  */
-Route::group(['domain' => 'dongkai.com', 'namespace' => 'Dongkai'], function () {
+Route::group(['domain' => env("DOMAIN_Dongkai_TOP"), 'namespace' => 'Dongkai'], function () {
     require(__DIR__ . '/DongKai/route.php');
-
+});
+Route::group(['domain' => env("DOMAIN_Dongkai_WWW"), 'namespace' => 'Dongkai'], function () {
+    require(__DIR__ . '/DongKai/route.php');
 });
 
 
@@ -88,8 +86,6 @@ Route::group(['prefix' => 'email'], function () {
 //    Route::match(['get','post'], '/test',$controller.'@test');
     Route::match(['get','post'], '/send',$controller.'@send');
 });
-
-
 
 
 
