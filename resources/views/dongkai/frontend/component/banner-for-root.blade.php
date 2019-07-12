@@ -1,9 +1,9 @@
 {{--banner--}}
 <div class="banner-container main-slider-wrapper clearfix" style="margin-top:0;">
-    <div class="banner-slider-container">
+    <div class="banner-slider-container" style="margin-top: 80%;">
         <div class="banner-slider-box" id="main-slider">
-                <div class="slide"><img src="{{ url('/common/images/banner1.jpg') }}" alt="Slide"></div>
-                <div class="slide"><img src="{{ url('/templates/moban2030/assets/images/slider/1.jpg') }}" alt="Slide"></div>
+                <div class="slide"><img src="{{ url('/dongkai/images/banner3.png') }}" alt="Slide"></div>
+                {{--<div class="slide"><img src="{{ url('/templates/moban2030/assets/images/slider/1.jpg') }}" alt="Slide"></div>--}}
                 {{--<div class="slide"><img src="{{ url('/templates/moban2030/assets/images/slider/2.jpg') }}" alt="Slide"></div>--}}
                 {{--<div class="slide"><img src="{{ url('/templates/moban2030/assets/images/slider/3.jpg') }}" alt="Slide"></div>--}}
                 {{--<div class="slide"><img src="{{ url('/templates/moban2030/assets/images/slider/4.jpg') }}" alt="Slide"></div>--}}

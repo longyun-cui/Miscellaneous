@@ -12,9 +12,9 @@
             @foreach($m->items as $v)
                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 item-col">
                     <a class="zoom- clearfix" target="_blank" href="{{ $v->link_url or '' }}">
-                        <div class="item-container model-left-right padding-8px- bg-light-">
+                        <div class="item-container model-left-right padding-8px bg-light-">
 
-                            <figure class="image-container padding-top-1-4-">
+                            <figure class="image-container padding-top-1-4-" style="width:48px; height:48px">
                                 <div class="image-box">
                                     <img data-action="zoom-" src="{{ env('DOMAIN_CDN').'/'.$v->cover_pic }}" alt="Property Image">
                                     {{--<span class="btn btn-warning">热销中</span>--}}
