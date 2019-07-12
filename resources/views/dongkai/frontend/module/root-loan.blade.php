@@ -23,10 +23,10 @@
 
                             <figure class="text-container">
                                 <div class="text-box" style="padding:0 4px;">
-                                    <div class="text-title-row font-12px">{{ $v->title or '' }}</div>
+                                    <div class="text-title-row font-14px">{{ $v->title or '' }}</div>
                                     <div class="text-description-row">
                                         <div>
-                                            <span class="color-red  font-12px">{{ $v->subtitle or '' }}</span>
+                                            <span class="color-red font-12px">{{ $v->subtitle or '' }}</span>
                                         </div>
                                         <div class="_none">
                                             <span>{{ $v->description or '' }} </span>
