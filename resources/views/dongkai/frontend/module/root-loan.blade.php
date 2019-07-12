@@ -4,13 +4,13 @@
     <div class="row">
 
         <header class="module-row module-header-container text-center">
-            <div class="wow slideInLeft module-title-row title-with-double-line color-1 border-light title-h5"><b>{{ $m->title or '' }}</b></div>
+            <div class="wow slideInLeft module-title-row title-with-double-line color-1 border-light title-h4"><b>{{ $m->title or '' }}</b></div>
             {{--<div class="wow slideInRight module-subtitle-row color-5 title-h5"><b>{{ $m->subtitle or '' }}</b></div>--}}
         </header>
 
         <div class="module-row module-body-container">
             @foreach($m->items as $v)
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 item-col">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 item-col" style="margin-top:8px;margin-bottom:8px;">
                     <a class="zoom- clearfix" target="_blank" href="{{ $v->link_url or '' }}">
                         <div class="item-container model-left-right padding-8px bg-light-">
 
