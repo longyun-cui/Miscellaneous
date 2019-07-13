@@ -27,7 +27,9 @@ class IndexRepository {
 //        $info = json_decode(json_encode(config('mitong.company.info')));
 //        $menus = RootMenu::where(['active'=>1])->orderby('order', 'asc')->get();
 
-        $loan_menus = RootMenu::with(['items'])->where(['active'=>1])->orderby('updated_at', 'desc')->get();
+        $loan_menus = RootMenu::with([
+            'items' => function ($query) { $query->orderBy('updated_at', 'desc'); }
+        ])->where(['active'=>1])->orderby('updated_at', 'desc')->get();
 //        dd($loan_menus);
         $loan_items = RootItem::where(['active'=>1])->orderby('updated_at', 'desc')->get();
         foreach($loan_items as $item)
