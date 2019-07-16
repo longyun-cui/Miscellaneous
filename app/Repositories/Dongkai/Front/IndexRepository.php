@@ -28,7 +28,7 @@ class IndexRepository {
 //        $menus = RootMenu::where(['active'=>1])->orderby('order', 'asc')->get();
 
         $loan_menus = RootMenu::with([
-            'items' => function ($query) { $query->orderBy('updated_at', 'desc'); }
+            'items' => function ($query) { $query->where(['active'=>1])->orderBy('updated_at', 'desc'); }
         ])->where(['active'=>1])->orderby('updated_at', 'desc')->get();
 //        dd($loan_menus);
         $loan_items = RootItem::where(['active'=>1])->orderby('updated_at', 'desc')->get();
